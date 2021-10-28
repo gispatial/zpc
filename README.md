@@ -20,7 +20,7 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 $ npm i or yarn. ( make sure you having npm next or just add $ yarn add @next )
 
 # Run the production:
-$ npm run dev or yarn dev | One dashboard is loading  http://localhost:4110/, Please log using credentials: underwaterworldadmin | abcd1234!
+Run $ npm run dev or yarn dev |<br></br>  http://localhost:4110/, Please log using credentials: superadmin@zen-charity.net | abcd1234!
 
 This ZCP Dashboard project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
 for Bootstrap support. Any topic that you won't find here is probably described in NextJs documentation.
