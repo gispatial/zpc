@@ -8,6 +8,7 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 
 <img src="https://github.com/gispatial/zpc/blob/rizqbazaar/home.png" width="100%">
 <img src="https://github.com/gispatial/zpc/blob/rizqbazaar/sidebar.png" width="30%">
+**Dashboard Sidebar Update based on ZCP API - https://zen-charity.net/api** 
 <img src="https://github.com/gispatial/zpc/blob/rizqbazaar/Screenshot%202021-10-28%20at%201.44.59%20PM.png" width="100%">
 
 # Introduction
@@ -17,8 +18,8 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 # Run this deployment
 $ npm i or yarn. ( make sure you having npm next or just add $ yarn add @next )
 
-# Run the production on http://localhost:4110/
-$ npm run dev or yarn dev | One dashboard is loading, please log using credentials: underwaterworldadmin | abcd1234!
+# Run the production:
+$ npm run dev or yarn dev | One dashboard is loading  http://localhost:4110/, Please log using credentials: underwaterworldadmin | abcd1234!
 
 This ZCP Dashboard project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
 for Bootstrap support. Any topic that you won't find here is probably described in NextJs documentation.
