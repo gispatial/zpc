@@ -1,0 +1,3569 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/crocslut/.nvm/versions/node/v0.12.2/bin/node',
+1 verbose cli   '/Users/crocslut/.nvm/versions/node/v0.12.2/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json zcp-dashboard@0.1.0 No repository field.
+5 verbose install where, deps [ '/Users/crocslut/Desktop/Git/zpc',
+5 verbose install   [ '@owczar/dashboard-style--airframe',
+5 verbose install     '@zeit/next-css',
+5 verbose install     '@zeit/next-sass',
+5 verbose install     'ag-grid-community',
+5 verbose install     'ag-grid-react',
+5 verbose install     'bootstrap',
+5 verbose install     'compression',
+5 verbose install     'cross-fetch',
+5 verbose install     'express',
+5 verbose install     'faker',
+5 verbose install     'font-awesome',
+5 verbose install     'fs-extra',
+5 verbose install     'holderjs',
+5 verbose install     'lodash',
+5 verbose install     'mobile-detect',
+5 verbose install     'moment',
+5 verbose install     'next',
+5 verbose install     'next-fonts',
+5 verbose install     'next-images',
+5 verbose install     'node-fetch',
+5 verbose install     'node-sass',
+5 verbose install     'nprogress',
+5 verbose install     'numeral',
+5 verbose install     'prop-types',
+5 verbose install     'query-string',
+5 verbose install     'quill',
+5 verbose install     'rc-slider',
+5 verbose install     'react',
+5 verbose install     'react-beautiful-dnd',
+5 verbose install     'react-big-calendar',
+5 verbose install     'react-bootstrap-table-next',
+5 verbose install     'react-bootstrap-table2-editor',
+5 verbose install     'react-bootstrap-table2-filter',
+5 verbose install     'react-bootstrap-table2-paginator',
+5 verbose install     'react-bootstrap-table2-toolkit',
+5 verbose install     'react-bootstrap-typeahead',
+5 verbose install     'react-content-loader',
+5 verbose install     'react-datepicker',
+5 verbose install     'react-dom',
+5 verbose install     'react-dropzone',
+5 verbose install     'react-grid-layout',
+5 verbose install     'react-helmet',
+5 verbose install     'react-hot-loader',
+5 verbose install     'react-image-crop',
+5 verbose install     'react-quill',
+5 verbose install     'react-responsive',
+5 verbose install     'react-router',
+5 verbose install     'react-router-dom',
+5 verbose install     'react-text-mask',
+5 verbose install     'react-toastify',
+5 verbose install     'react-toggle',
+5 verbose install     'react-universal-component',
+5 verbose install     'reactstrap',
+5 verbose install     'recharts',
+5 verbose install     'text-mask-addons',
+5 verbose install     'uuid',
+5 verbose install     'webpack-cli',
+5 verbose install     '@babel/plugin-proposal-class-properties',
+5 verbose install     '@babel/preset-env',
+5 verbose install     '@babel/preset-react',
+5 verbose install     '@babel/preset-stage-2',
+5 verbose install     'autoprefixer',
+5 verbose install     'babel-eslint',
+5 verbose install     'eslint',
+5 verbose install     'eslint-config-airbnb',
+5 verbose install     'eslint-import-resolver-alias',
+5 verbose install     'eslint-plugin-import',
+5 verbose install     'eslint-plugin-jsx-a11y',
+5 verbose install     'eslint-plugin-react',
+5 verbose install     'file-loader' ] ]
+6 verbose install where, peers [ '/Users/crocslut/Desktop/Git/zpc', [] ]
+7 info preinstall zcp-dashboard@0.1.0
+8 warn package.json copy-descriptor@0.1.1 No README data
+9 warn package.json eslint-module-utils@2.4.1 No README data
+10 warn package.json estraverse@4.2.0 No README data
+11 warn package.json get-value@2.0.6 No README data
+12 warn package.json launch-editor@2.2.1 No README data
+13 warn package.json mamacro@0.0.3 No description
+14 warn package.json mamacro@0.0.3 No repository field.
+15 warn package.json mamacro@0.0.3 No README data
+16 warn package.json next-server@9.0.2 No description
+17 warn package.json next-server@9.0.2 No README data
+18 warn package.json object-copy@0.1.0 No README data
+19 warn package.json path-is-inside@1.0.2 No README data
+20 warn package.json react-context-toolbox@2.0.2 No description
+21 warn package.json react-context-toolbox@2.0.2 No README data
+22 warn package.json setimmediate@1.0.5 No README data
+23 warn package.json static-extend@0.1.2 No README data
+24 warn package.json @webassemblyjs/helper-api-error@1.8.5 No repository field.
+25 warn package.json @webassemblyjs/helper-api-error@1.8.5 No README data
+26 warn package.json @webassemblyjs/helper-fsm@1.8.5 No repository field.
+27 warn package.json @webassemblyjs/helper-fsm@1.8.5 No README data
+28 warn package.json @webassemblyjs/helper-code-frame@1.8.5 No description
+29 warn package.json @webassemblyjs/helper-code-frame@1.8.5 No README data
+30 warn package.json @webassemblyjs/helper-buffer@1.8.5 No README data
+31 warn package.json @owczar/dashboard-style--airframe@0.1.13 No description
+32 warn package.json @owczar/dashboard-style--airframe@0.1.13 No repository field.
+33 warn package.json @owczar/dashboard-style--airframe@0.1.13 No README data
+34 warn package.json @webassemblyjs/helper-module-context@1.8.5 No description
+35 warn package.json @webassemblyjs/helper-module-context@1.8.5 No README data
+36 warn package.json @webassemblyjs/helper-wasm-bytecode@1.8.5 No README data
+37 warn package.json @webassemblyjs/helper-wasm-section@1.8.5 No description
+38 warn package.json @webassemblyjs/helper-wasm-section@1.8.5 No README data
+39 warn package.json @webassemblyjs/ieee754@1.8.5 No repository field.
+40 warn package.json @webassemblyjs/ieee754@1.8.5 No README data
+41 warn package.json @webassemblyjs/leb128@1.8.5 No repository field.
+42 warn package.json @webassemblyjs/leb128@1.8.5 No README data
+43 warn package.json @webassemblyjs/utf8@1.8.5 No README data
+44 warn package.json @webassemblyjs/wasm-gen@1.8.5 No README data
+45 warn package.json @webassemblyjs/wasm-opt@1.8.5 No description
+46 warn package.json @webassemblyjs/wasm-opt@1.8.5 No README data
+47 warn package.json assert@1.5.0 assert is also the name of a node core module.
+48 warn package.json babel-core@7.0.0-bridge.0 No repository field.
+49 warn package.json buffer@4.9.1 buffer is also the name of a node core module.
+50 warn package.json events@3.0.0 events is also the name of a node core module.
+51 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+52 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+53 warn package.json require-from-string@2.0.2 keywords should be an array of strings
+54 warn package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+55 warn package.json typed-styles@0.0.7 No repository field.
+56 warn package.json url@0.11.0 url is also the name of a node core module.
+57 warn package.json util@0.11.1 util is also the name of a node core module.
+58 verbose already installed skipping mobile-detect@^1.4.3 /Users/crocslut/Desktop/Git/zpc
+59 verbose already installed skipping moment@^2.24.0 /Users/crocslut/Desktop/Git/zpc
+60 verbose already installed skipping next@^9.0.2 /Users/crocslut/Desktop/Git/zpc
+61 verbose already installed skipping next-fonts@^0.17.0 /Users/crocslut/Desktop/Git/zpc
+62 verbose already installed skipping next-images@^1.1.2 /Users/crocslut/Desktop/Git/zpc
+63 verbose already installed skipping node-fetch@^2.6.0 /Users/crocslut/Desktop/Git/zpc
+64 verbose already installed skipping node-sass@^4.12.0 /Users/crocslut/Desktop/Git/zpc
+65 verbose already installed skipping nprogress@^0.2.0 /Users/crocslut/Desktop/Git/zpc
+66 verbose already installed skipping numeral@^2.0.6 /Users/crocslut/Desktop/Git/zpc
+67 verbose already installed skipping prop-types@^15.7.2 /Users/crocslut/Desktop/Git/zpc
+68 verbose already installed skipping query-string@^6.8.2 /Users/crocslut/Desktop/Git/zpc
+69 verbose already installed skipping quill@^2.0.0-dev.3 /Users/crocslut/Desktop/Git/zpc
+70 verbose already installed skipping rc-slider@^8.6.13 /Users/crocslut/Desktop/Git/zpc
+71 verbose already installed skipping react@^16.8.6 /Users/crocslut/Desktop/Git/zpc
+72 verbose already installed skipping react-beautiful-dnd@^11.0.5 /Users/crocslut/Desktop/Git/zpc
+73 verbose already installed skipping react-big-calendar@^0.22.0 /Users/crocslut/Desktop/Git/zpc
+74 verbose already installed skipping react-bootstrap-table-next@^3.1.7 /Users/crocslut/Desktop/Git/zpc
+75 verbose already installed skipping react-bootstrap-table2-editor@^1.3.1 /Users/crocslut/Desktop/Git/zpc
+76 verbose already installed skipping react-bootstrap-table2-filter@^1.1.10 /Users/crocslut/Desktop/Git/zpc
+77 verbose already installed skipping react-bootstrap-table2-paginator@^2.0.7 /Users/crocslut/Desktop/Git/zpc
+78 verbose already installed skipping react-bootstrap-table2-toolkit@^2.0.1 /Users/crocslut/Desktop/Git/zpc
+79 verbose already installed skipping react-bootstrap-typeahead@^4.0.0-alpha.9 /Users/crocslut/Desktop/Git/zpc
+80 verbose already installed skipping react-content-loader@^4.2.2 /Users/crocslut/Desktop/Git/zpc
+81 verbose already installed skipping react-datepicker@^2.8.0 /Users/crocslut/Desktop/Git/zpc
+82 verbose already installed skipping react-dom@^16.8.6 /Users/crocslut/Desktop/Git/zpc
+83 verbose already installed skipping react-dropzone@^10.1.7 /Users/crocslut/Desktop/Git/zpc
+84 verbose already installed skipping react-grid-layout@^0.16.6 /Users/crocslut/Desktop/Git/zpc
+85 verbose already installed skipping react-helmet@^5.2.1 /Users/crocslut/Desktop/Git/zpc
+86 verbose already installed skipping react-hot-loader@^4.12.10 /Users/crocslut/Desktop/Git/zpc
+87 verbose already installed skipping react-image-crop@^8.2.0 /Users/crocslut/Desktop/Git/zpc
+88 verbose already installed skipping react-quill@^1.3.3 /Users/crocslut/Desktop/Git/zpc
+89 verbose already installed skipping react-responsive@^7.0.0 /Users/crocslut/Desktop/Git/zpc
+90 verbose already installed skipping react-router@^5.0.1 /Users/crocslut/Desktop/Git/zpc
+91 verbose already installed skipping react-router-dom@^5.0.1 /Users/crocslut/Desktop/Git/zpc
+92 verbose already installed skipping react-text-mask@^5.4.3 /Users/crocslut/Desktop/Git/zpc
+93 verbose already installed skipping react-toastify@^5.3.2 /Users/crocslut/Desktop/Git/zpc
+94 verbose already installed skipping react-toggle@^4.0.2 /Users/crocslut/Desktop/Git/zpc
+95 verbose already installed skipping react-universal-component@^4.0.0 /Users/crocslut/Desktop/Git/zpc
+96 verbose already installed skipping reactstrap@^8.0.1 /Users/crocslut/Desktop/Git/zpc
+97 verbose already installed skipping recharts@^1.6.2 /Users/crocslut/Desktop/Git/zpc
+98 verbose already installed skipping text-mask-addons@^3.8.0 /Users/crocslut/Desktop/Git/zpc
+99 verbose already installed skipping uuid@^3.3.2 /Users/crocslut/Desktop/Git/zpc
+100 verbose already installed skipping webpack-cli@^3.3.6 /Users/crocslut/Desktop/Git/zpc
+101 verbose already installed skipping @babel/plugin-proposal-class-properties@^7.5.5 /Users/crocslut/Desktop/Git/zpc
+102 verbose already installed skipping @babel/preset-env@^7.5.5 /Users/crocslut/Desktop/Git/zpc
+103 verbose already installed skipping @babel/preset-react@^7.0.0 /Users/crocslut/Desktop/Git/zpc
+104 verbose already installed skipping @babel/preset-stage-2@^7.0.0 /Users/crocslut/Desktop/Git/zpc
+105 verbose already installed skipping autoprefixer@^9.6.1 /Users/crocslut/Desktop/Git/zpc
+106 verbose already installed skipping babel-eslint@^10.0.2 /Users/crocslut/Desktop/Git/zpc
+107 verbose already installed skipping eslint@^6.1.0 /Users/crocslut/Desktop/Git/zpc
+108 verbose already installed skipping eslint-config-airbnb@^17.1.1 /Users/crocslut/Desktop/Git/zpc
+109 verbose already installed skipping eslint-import-resolver-alias@^1.1.2 /Users/crocslut/Desktop/Git/zpc
+110 verbose already installed skipping eslint-plugin-import@^2.18.2 /Users/crocslut/Desktop/Git/zpc
+111 verbose already installed skipping eslint-plugin-jsx-a11y@^6.2.3 /Users/crocslut/Desktop/Git/zpc
+112 verbose already installed skipping eslint-plugin-react@^7.14.3 /Users/crocslut/Desktop/Git/zpc
+113 verbose already installed skipping file-loader@^4.1.0 /Users/crocslut/Desktop/Git/zpc
+114 verbose already installed skipping @owczar/dashboard-style--airframe@^0.1.13 /Users/crocslut/Desktop/Git/zpc
+115 verbose already installed skipping @zeit/next-css@^1.0.1 /Users/crocslut/Desktop/Git/zpc
+116 verbose already installed skipping @zeit/next-sass@^1.0.1 /Users/crocslut/Desktop/Git/zpc
+117 verbose already installed skipping ag-grid-community@^21.1.0 /Users/crocslut/Desktop/Git/zpc
+118 verbose already installed skipping ag-grid-react@^21.1.0 /Users/crocslut/Desktop/Git/zpc
+119 verbose already installed skipping bootstrap@^4.3.1 /Users/crocslut/Desktop/Git/zpc
+120 verbose already installed skipping compression@^1.7.4 /Users/crocslut/Desktop/Git/zpc
+121 verbose already installed skipping cross-fetch@^3.0.4 /Users/crocslut/Desktop/Git/zpc
+122 verbose already installed skipping express@^4.17.1 /Users/crocslut/Desktop/Git/zpc
+123 verbose already installed skipping faker@^4.1.0 /Users/crocslut/Desktop/Git/zpc
+124 verbose already installed skipping font-awesome@^4.7.0 /Users/crocslut/Desktop/Git/zpc
+125 verbose already installed skipping fs-extra@^8.1.0 /Users/crocslut/Desktop/Git/zpc
+126 verbose already installed skipping holderjs@^2.9.6 /Users/crocslut/Desktop/Git/zpc
+127 verbose already installed skipping lodash@^4.17.15 /Users/crocslut/Desktop/Git/zpc
+128 silly install resolved []
+129 info build /Users/crocslut/Desktop/Git/zpc
+130 verbose linkStuff [ false, false, false, '/Users/crocslut/Desktop/Git' ]
+131 info linkStuff zcp-dashboard@0.1.0
+132 verbose linkBins zcp-dashboard@0.1.0
+133 verbose linkMans zcp-dashboard@0.1.0
+134 verbose rebuildBundles zcp-dashboard@0.1.0
+135 verbose rebuildBundles [ '.bin',
+135 verbose rebuildBundles   '.package-lock.json',
+135 verbose rebuildBundles   '@babel',
+135 verbose rebuildBundles   '@owczar',
+135 verbose rebuildBundles   '@types',
+135 verbose rebuildBundles   '@webassemblyjs',
+135 verbose rebuildBundles   '@xtuc',
+135 verbose rebuildBundles   '@zeit',
+135 verbose rebuildBundles   'abbrev',
+135 verbose rebuildBundles   'accepts',
+135 verbose rebuildBundles   'acorn',
+135 verbose rebuildBundles   'acorn-jsx',
+135 verbose rebuildBundles   'add-dom-event-listener',
+135 verbose rebuildBundles   'ag-grid-community',
+135 verbose rebuildBundles   'ag-grid-react',
+135 verbose rebuildBundles   'ajv',
+135 verbose rebuildBundles   'ajv-errors',
+135 verbose rebuildBundles   'ajv-keywords',
+135 verbose rebuildBundles   'amdefine',
+135 verbose rebuildBundles   'amp-toolbox-core',
+135 verbose rebuildBundles   'amp-toolbox-optimizer',
+135 verbose rebuildBundles   'amp-toolbox-runtime-version',
+135 verbose rebuildBundles   'amphtml-validator',
+135 verbose rebuildBundles   'animejs',
+135 verbose rebuildBundles   'ansi-colors',
+135 verbose rebuildBundles   'ansi-escapes',
+135 verbose rebuildBundles   'ansi-html',
+135 verbose rebuildBundles   'ansi-regex',
+135 verbose rebuildBundles   'ansi-styles',
+135 verbose rebuildBundles   'anymatch',
+135 verbose rebuildBundles   'aproba',
+135 verbose rebuildBundles   'are-we-there-yet',
+135 verbose rebuildBundles   'argparse',
+135 verbose rebuildBundles   'aria-query',
+135 verbose rebuildBundles   'arr-diff',
+135 verbose rebuildBundles   'arr-flatten',
+135 verbose rebuildBundles   'arr-union',
+135 verbose rebuildBundles   'array-filter',
+135 verbose rebuildBundles   'array-find-index',
+135 verbose rebuildBundles   'array-flatten',
+135 verbose rebuildBundles   'array-includes',
+135 verbose rebuildBundles   'array-map',
+135 verbose rebuildBundles   'array-reduce',
+135 verbose rebuildBundles   'array-union',
+135 verbose rebuildBundles   'array-uniq',
+135 verbose rebuildBundles   'array-unique',
+135 verbose rebuildBundles   'asap',
+135 verbose rebuildBundles   'asn1',
+135 verbose rebuildBundles   'asn1.js',
+135 verbose rebuildBundles   'assert',
+135 verbose rebuildBundles   'assert-plus',
+135 verbose rebuildBundles   'assign-symbols',
+135 verbose rebuildBundles   'ast-types-flow',
+135 verbose rebuildBundles   'astral-regex',
+135 verbose rebuildBundles   'async',
+135 verbose rebuildBundles   'async-each',
+135 verbose rebuildBundles   'async-foreach',
+135 verbose rebuildBundles   'async-sema',
+135 verbose rebuildBundles   'asynckit',
+135 verbose rebuildBundles   'atob',
+135 verbose rebuildBundles   'attr-accept',
+135 verbose rebuildBundles   'autodll-webpack-plugin',
+135 verbose rebuildBundles   'autoprefixer',
+135 verbose rebuildBundles   'aws-sign2',
+135 verbose rebuildBundles   'aws4',
+135 verbose rebuildBundles   'axobject-query',
+135 verbose rebuildBundles   'babel-code-frame',
+135 verbose rebuildBundles   'babel-core',
+135 verbose rebuildBundles   'babel-eslint',
+135 verbose rebuildBundles   'babel-loader',
+135 verbose rebuildBundles   'babel-plugin-dynamic-import-node',
+135 verbose rebuildBundles   'babel-plugin-react-require',
+135 verbose rebuildBundles   'babel-plugin-syntax-jsx',
+135 verbose rebuildBundles   'babel-plugin-transform-async-to-promises',
+135 verbose rebuildBundles   'babel-plugin-transform-react-remove-prop-types',
+135 verbose rebuildBundles   'babel-runtime',
+135 verbose rebuildBundles   'babel-types',
+135 verbose rebuildBundles   'balanced-match',
+135 verbose rebuildBundles   'base',
+135 verbose rebuildBundles   'base64-js',
+135 verbose rebuildBundles   'bcrypt-pbkdf',
+135 verbose rebuildBundles   'big.js',
+135 verbose rebuildBundles   'binary-extensions',
+135 verbose rebuildBundles   'block-stream',
+135 verbose rebuildBundles   'bluebird',
+135 verbose rebuildBundles   'bn.js',
+135 verbose rebuildBundles   'body-parser',
+135 verbose rebuildBundles   'bootstrap',
+135 verbose rebuildBundles   'bootstrap-sass',
+135 verbose rebuildBundles   'brace-expansion',
+135 verbose rebuildBundles   'braces',
+135 verbose rebuildBundles   'brorand',
+135 verbose rebuildBundles   'browserify-aes',
+135 verbose rebuildBundles   'browserify-cipher',
+135 verbose rebuildBundles   'browserify-des',
+135 verbose rebuildBundles   'browserify-rsa',
+135 verbose rebuildBundles   'browserify-sign',
+135 verbose rebuildBundles   'browserify-zlib',
+135 verbose rebuildBundles   'browserslist',
+135 verbose rebuildBundles   'buffer',
+135 verbose rebuildBundles   'buffer-from',
+135 verbose rebuildBundles   'buffer-xor',
+135 verbose rebuildBundles   'builtin-status-codes',
+135 verbose rebuildBundles   'bytes',
+135 verbose rebuildBundles   'cacache',
+135 verbose rebuildBundles   'cache-base',
+135 verbose rebuildBundles   'camelcase',
+135 verbose rebuildBundles   'camelcase-keys',
+135 verbose rebuildBundles   'caniuse-lite',
+135 verbose rebuildBundles   'caseless',
+135 verbose rebuildBundles   'chalk',
+135 verbose rebuildBundles   'chardet',
+135 verbose rebuildBundles   'chokidar',
+135 verbose rebuildBundles   'chownr',
+135 verbose rebuildBundles   'chrome-trace-event',
+135 verbose rebuildBundles   'cipher-base',
+135 verbose rebuildBundles   'class-utils',
+135 verbose rebuildBundles   'classnames',
+135 verbose rebuildBundles   'cli-cursor',
+135 verbose rebuildBundles   'cli-width',
+135 verbose rebuildBundles   'cliui',
+135 verbose rebuildBundles   'clone',
+135 verbose rebuildBundles   'clone-deep',
+135 verbose rebuildBundles   'clsx',
+135 verbose rebuildBundles   'code-point-at',
+135 verbose rebuildBundles   'collection-visit',
+135 verbose rebuildBundles   'color-convert',
+135 verbose rebuildBundles   'color-name',
+135 verbose rebuildBundles   'colors',
+135 verbose rebuildBundles   'combined-stream',
+135 verbose rebuildBundles   'commander',
+135 verbose rebuildBundles   'commondir',
+135 verbose rebuildBundles   'component-classes',
+135 verbose rebuildBundles   'component-emitter',
+135 verbose rebuildBundles   'component-indexof',
+135 verbose rebuildBundles   'compressible',
+135 verbose rebuildBundles   'compression',
+135 verbose rebuildBundles   'compute-scroll-into-view',
+135 verbose rebuildBundles   'concat-map',
+135 verbose rebuildBundles   'concat-stream',
+135 verbose rebuildBundles   'confusing-browser-globals',
+135 verbose rebuildBundles   'console-browserify',
+135 verbose rebuildBundles   'console-control-strings',
+135 verbose rebuildBundles   'constants-browserify',
+135 verbose rebuildBundles   'contains-path',
+135 verbose rebuildBundles   'content-disposition',
+135 verbose rebuildBundles   'content-type',
+135 verbose rebuildBundles   'convert-source-map',
+135 verbose rebuildBundles   'cookie',
+135 verbose rebuildBundles   'cookie-signature',
+135 verbose rebuildBundles   'copy-concurrently',
+135 verbose rebuildBundles   'copy-descriptor',
+135 verbose rebuildBundles   'core-js',
+135 verbose rebuildBundles   'core-js-compat',
+135 verbose rebuildBundles   'core-js-pure',
+135 verbose rebuildBundles   'core-util-is',
+135 verbose rebuildBundles   'cosmiconfig',
+135 verbose rebuildBundles   'create-ecdh',
+135 verbose rebuildBundles   'create-hash',
+135 verbose rebuildBundles   'create-hmac',
+135 verbose rebuildBundles   'create-react-class',
+135 verbose rebuildBundles   'create-react-context',
+135 verbose rebuildBundles   'cross-fetch',
+135 verbose rebuildBundles   'cross-spawn',
+135 verbose rebuildBundles   'crypto-browserify',
+135 verbose rebuildBundles   'css',
+135 verbose rebuildBundles   'css-animation',
+135 verbose rebuildBundles   'css-box-model',
+135 verbose rebuildBundles   'css-loader',
+135 verbose rebuildBundles   'css-mediaquery',
+135 verbose rebuildBundles   'css-selector-tokenizer',
+135 verbose rebuildBundles   'cssesc',
+135 verbose rebuildBundles   'csstype',
+135 verbose rebuildBundles   'currently-unhandled',
+135 verbose rebuildBundles   'cyclist',
+135 verbose rebuildBundles   'd3-array',
+135 verbose rebuildBundles   'd3-collection',
+135 verbose rebuildBundles   'd3-color',
+135 verbose rebuildBundles   'd3-format',
+135 verbose rebuildBundles   'd3-interpolate',
+135 verbose rebuildBundles   'd3-path',
+135 verbose rebuildBundles   'd3-scale',
+135 verbose rebuildBundles   'd3-shape',
+135 verbose rebuildBundles   'd3-time',
+135 verbose rebuildBundles   'd3-time-format',
+135 verbose rebuildBundles   'damerau-levenshtein',
+135 verbose rebuildBundles   'dashdash',
+135 verbose rebuildBundles   'date-arithmetic',
+135 verbose rebuildBundles   'date-fns',
+135 verbose rebuildBundles   'date-now',
+135 verbose rebuildBundles   'debug',
+135 verbose rebuildBundles   'decamelize',
+135 verbose rebuildBundles   'decimal.js-light',
+135 verbose rebuildBundles   'decode-uri-component',
+135 verbose rebuildBundles   'deep-equal',
+135 verbose rebuildBundles   'deep-is',
+135 verbose rebuildBundles   'define-properties',
+135 verbose rebuildBundles   'define-property',
+135 verbose rebuildBundles   'del',
+135 verbose rebuildBundles   'delayed-stream',
+135 verbose rebuildBundles   'delegates',
+135 verbose rebuildBundles   'depd',
+135 verbose rebuildBundles   'des.js',
+135 verbose rebuildBundles   'destroy',
+135 verbose rebuildBundles   'detect-file',
+135 verbose rebuildBundles   'diffie-hellman',
+135 verbose rebuildBundles   'doctrine',
+135 verbose rebuildBundles   'dom-align',
+135 verbose rebuildBundles   'dom-helpers',
+135 verbose rebuildBundles   'dom-walk',
+135 verbose rebuildBundles   'domain-browser',
+135 verbose rebuildBundles   'duplexify',
+135 verbose rebuildBundles   'ecc-jsbn',
+135 verbose rebuildBundles   'ee-first',
+135 verbose rebuildBundles   'electron-to-chromium',
+135 verbose rebuildBundles   'elliptic',
+135 verbose rebuildBundles   'emoji-regex',
+135 verbose rebuildBundles   'emojis-list',
+135 verbose rebuildBundles   'encodeurl',
+135 verbose rebuildBundles   'encoding',
+135 verbose rebuildBundles   'end-of-stream',
+135 verbose rebuildBundles   'enhanced-resolve',
+135 verbose rebuildBundles   'errno',
+135 verbose rebuildBundles   'error-ex',
+135 verbose rebuildBundles   'es-abstract',
+135 verbose rebuildBundles   'es-to-primitive',
+135 verbose rebuildBundles   'escape-html',
+135 verbose rebuildBundles   'escape-string-regexp',
+135 verbose rebuildBundles   'eslint',
+135 verbose rebuildBundles   'eslint-config-airbnb',
+135 verbose rebuildBundles   'eslint-config-airbnb-base',
+135 verbose rebuildBundles   'eslint-import-resolver-alias',
+135 verbose rebuildBundles   'eslint-import-resolver-node',
+135 verbose rebuildBundles   'eslint-module-utils',
+135 verbose rebuildBundles   'eslint-plugin-import',
+135 verbose rebuildBundles   'eslint-plugin-jsx-a11y',
+135 verbose rebuildBundles   'eslint-plugin-react',
+135 verbose rebuildBundles   'eslint-scope',
+135 verbose rebuildBundles   'eslint-utils',
+135 verbose rebuildBundles   'eslint-visitor-keys',
+135 verbose rebuildBundles   'espree',
+135 verbose rebuildBundles   'esprima',
+135 verbose rebuildBundles   'esquery',
+135 verbose rebuildBundles   'esrecurse',
+135 verbose rebuildBundles   'estraverse',
+135 verbose rebuildBundles   'esutils',
+135 verbose rebuildBundles   'etag',
+135 verbose rebuildBundles   'eventemitter3',
+135 verbose rebuildBundles   'events',
+135 verbose rebuildBundles   'evp_bytestokey',
+135 verbose rebuildBundles   'execa',
+135 verbose rebuildBundles   'exenv',
+135 verbose rebuildBundles   'expand-brackets',
+135 verbose rebuildBundles   'expand-tilde',
+135 verbose rebuildBundles   'express',
+135 verbose rebuildBundles   'extend',
+135 verbose rebuildBundles   'extend-shallow',
+135 verbose rebuildBundles   'external-editor',
+135 verbose rebuildBundles   'extglob',
+135 verbose rebuildBundles   'extracted-loader',
+135 verbose rebuildBundles   'extsprintf',
+135 verbose rebuildBundles   'faker',
+135 verbose rebuildBundles   'fast-deep-equal',
+135 verbose rebuildBundles   'fast-diff',
+135 verbose rebuildBundles   'fast-json-stable-stringify',
+135 verbose rebuildBundles   'fast-levenshtein',
+135 verbose rebuildBundles   'fastparse',
+135 verbose rebuildBundles   'fbjs',
+135 verbose rebuildBundles   'figgy-pudding',
+135 verbose rebuildBundles   'figures',
+135 verbose rebuildBundles   'file-entry-cache',
+135 verbose rebuildBundles   'file-loader',
+135 verbose rebuildBundles   'file-saver',
+135 verbose rebuildBundles   'file-selector',
+135 verbose rebuildBundles   'fill-range',
+135 verbose rebuildBundles   'finalhandler',
+135 verbose rebuildBundles   'find-cache-dir',
+135 verbose rebuildBundles   'find-up',
+135 verbose rebuildBundles   'findup-sync',
+135 verbose rebuildBundles   'flat-cache',
+135 verbose rebuildBundles   'flatted',
+135 verbose rebuildBundles   'flush-write-stream',
+135 verbose rebuildBundles   'font-awesome',
+135 verbose rebuildBundles   'for-in',
+135 verbose rebuildBundles   'for-own',
+135 verbose rebuildBundles   'forever-agent',
+135 verbose rebuildBundles   'fork-ts-checker-webpack-plugin',
+135 verbose rebuildBundles   'form-data',
+135 verbose rebuildBundles   'forwarded',
+135 verbose rebuildBundles   'fragment-cache',
+135 verbose rebuildBundles   'fresh',
+135 verbose rebuildBundles   'from2',
+135 verbose rebuildBundles   'fs-extra',
+135 verbose rebuildBundles   'fs-write-stream-atomic',
+135 verbose rebuildBundles   'fs.realpath',
+135 verbose rebuildBundles   'fsevents',
+135 verbose rebuildBundles   'fstream',
+135 verbose rebuildBundles   'function-bind',
+135 verbose rebuildBundles   'functional-red-black-tree',
+135 verbose rebuildBundles   'gauge',
+135 verbose rebuildBundles   'gaze',
+135 verbose rebuildBundles   'get-caller-file',
+135 verbose rebuildBundles   'get-stdin',
+135 verbose rebuildBundles   'get-stream',
+135 verbose rebuildBundles   'get-value',
+135 verbose rebuildBundles   'getpass',
+135 verbose rebuildBundles   'glob',
+135 verbose rebuildBundles   'glob-parent',
+135 verbose rebuildBundles   'glob-to-regexp',
+135 verbose rebuildBundles   'global',
+135 verbose rebuildBundles   'global-modules',
+135 verbose rebuildBundles   'global-prefix',
+135 verbose rebuildBundles   'globals',
+135 verbose rebuildBundles   'globby',
+135 verbose rebuildBundles   'globule',
+135 verbose rebuildBundles   'graceful-fs',
+135 verbose rebuildBundles   'graceful-readlink',
+135 verbose rebuildBundles   'gud',
+135 verbose rebuildBundles   'har-schema',
+135 verbose rebuildBundles   'har-validator',
+135 verbose rebuildBundles   'has',
+135 verbose rebuildBundles   'has-ansi',
+135 verbose rebuildBundles   'has-flag',
+135 verbose rebuildBundles   'has-symbols',
+135 verbose rebuildBundles   'has-unicode',
+135 verbose rebuildBundles   'has-value',
+135 verbose rebuildBundles   'has-values',
+135 verbose rebuildBundles   'hash-base',
+135 verbose rebuildBundles   'hash.js',
+135 verbose rebuildBundles   'history',
+135 verbose rebuildBundles   'hmac-drbg',
+135 verbose rebuildBundles   'hoist-non-react-statics',
+135 verbose rebuildBundles   'holderjs',
+135 verbose rebuildBundles   'homedir-polyfill',
+135 verbose rebuildBundles   'hosted-git-info',
+135 verbose rebuildBundles   'html-entities',
+135 verbose rebuildBundles   'http-errors',
+135 verbose rebuildBundles   'http-signature',
+135 verbose rebuildBundles   'https-browserify',
+135 verbose rebuildBundles   'hyphenate-style-name',
+135 verbose rebuildBundles   'iconv-lite',
+135 verbose rebuildBundles   'icss-replace-symbols',
+135 verbose rebuildBundles   'icss-utils',
+135 verbose rebuildBundles   'ieee754',
+135 verbose rebuildBundles   'iferr',
+135 verbose rebuildBundles   'ignore',
+135 verbose rebuildBundles   'ignore-loader',
+135 verbose rebuildBundles   'import-cwd',
+135 verbose rebuildBundles   'import-from',
+135 verbose rebuildBundles   'import-local',
+135 verbose rebuildBundles   'imurmurhash',
+135 verbose rebuildBundles   'in-publish',
+135 verbose rebuildBundles   'indent-string',
+135 verbose rebuildBundles   'inflight',
+135 verbose rebuildBundles   'inherits',
+135 verbose rebuildBundles   'ini',
+135 verbose rebuildBundles   'inquirer',
+135 verbose rebuildBundles   'interpret',
+135 verbose rebuildBundles   'invariant',
+135 verbose rebuildBundles   'invert-kv',
+135 verbose rebuildBundles   'ipaddr.js',
+135 verbose rebuildBundles   'is-accessor-descriptor',
+135 verbose rebuildBundles   'is-arrayish',
+135 verbose rebuildBundles   'is-binary-path',
+135 verbose rebuildBundles   'is-buffer',
+135 verbose rebuildBundles   'is-callable',
+135 verbose rebuildBundles   'is-data-descriptor',
+135 verbose rebuildBundles   'is-date-object',
+135 verbose rebuildBundles   'is-descriptor',
+135 verbose rebuildBundles   'is-directory',
+135 verbose rebuildBundles   'is-extendable',
+135 verbose rebuildBundles   'is-extglob',
+135 verbose rebuildBundles   'is-finite',
+135 verbose rebuildBundles   'is-fullwidth-code-point',
+135 verbose rebuildBundles   'is-glob',
+135 verbose rebuildBundles   'is-number',
+135 verbose rebuildBundles   'is-path-cwd',
+135 verbose rebuildBundles   'is-path-in-cwd',
+135 verbose rebuildBundles   'is-path-inside',
+135 verbose rebuildBundles   'is-plain-object',
+135 verbose rebuildBundles   'is-promise',
+135 verbose rebuildBundles   'is-regex',
+135 verbose rebuildBundles   'is-stream',
+135 verbose rebuildBundles   'is-symbol',
+135 verbose rebuildBundles   'is-typedarray',
+135 verbose rebuildBundles   'is-utf8',
+135 verbose rebuildBundles   'is-windows',
+135 verbose rebuildBundles   'is-wsl',
+135 verbose rebuildBundles   'isarray',
+135 verbose rebuildBundles   'isexe',
+135 verbose rebuildBundles   'isobject',
+135 verbose rebuildBundles   'isomorphic-fetch',
+135 verbose rebuildBundles   'isstream',
+135 verbose rebuildBundles   'js-base64',
+135 verbose rebuildBundles   'js-levenshtein',
+135 verbose rebuildBundles   'js-tokens',
+135 verbose rebuildBundles   'js-yaml',
+135 verbose rebuildBundles   'jsbn',
+135 verbose rebuildBundles   'jsesc',
+135 verbose rebuildBundles   'json-parse-better-errors',
+135 verbose rebuildBundles   'json-schema',
+135 verbose rebuildBundles   'json-schema-traverse',
+135 verbose rebuildBundles   'json-stable-stringify-without-jsonify',
+135 verbose rebuildBundles   'json-stringify-safe',
+135 verbose rebuildBundles   'json5',
+135 verbose rebuildBundles   'jsonfile',
+135 verbose rebuildBundles   'jsonify',
+135 verbose rebuildBundles   'jsprim',
+135 verbose rebuildBundles   'jsx-ast-utils',
+135 verbose rebuildBundles   'kind-of',
+135 verbose rebuildBundles   'launch-editor',
+135 verbose rebuildBundles   'lazy-cache',
+135 verbose rebuildBundles   'lcid',
+135 verbose rebuildBundles   'levn',
+135 verbose rebuildBundles   'load-json-file',
+135 verbose rebuildBundles   'loader-runner',
+135 verbose rebuildBundles   'loader-utils',
+135 verbose rebuildBundles   'locate-path',
+135 verbose rebuildBundles   'lodash',
+135 verbose rebuildBundles   'lodash-es',
+135 verbose rebuildBundles   'lodash._getnative',
+135 verbose rebuildBundles   'lodash.camelcase',
+135 verbose rebuildBundles   'lodash.debounce',
+135 verbose rebuildBundles   'lodash.isarguments',
+135 verbose rebuildBundles   'lodash.isarray',
+135 verbose rebuildBundles   'lodash.isequal',
+135 verbose rebuildBundles   'lodash.isfunction',
+135 verbose rebuildBundles   'lodash.isobject',
+135 verbose rebuildBundles   'lodash.keys',
+135 verbose rebuildBundles   'lodash.tail',
+135 verbose rebuildBundles   'lodash.throttle',
+135 verbose rebuildBundles   'lodash.tonumber',
+135 verbose rebuildBundles   'loose-envify',
+135 verbose rebuildBundles   'loud-rejection',
+135 verbose rebuildBundles   'lru-cache',
+135 verbose rebuildBundles   'make-dir',
+135 verbose rebuildBundles   'mamacro',
+135 verbose rebuildBundles   'map-age-cleaner',
+135 verbose rebuildBundles   'map-cache',
+135 verbose rebuildBundles   'map-obj',
+135 verbose rebuildBundles   'map-visit',
+135 verbose rebuildBundles   'matchmediaquery',
+135 verbose rebuildBundles   'math-expression-evaluator',
+135 verbose rebuildBundles   'md5.js',
+135 verbose rebuildBundles   'media-typer',
+135 verbose rebuildBundles   'mem',
+135 verbose rebuildBundles   'memoize-one',
+135 verbose rebuildBundles   'memory-fs',
+135 verbose rebuildBundles   'meow',
+135 verbose rebuildBundles   'merge-descriptors',
+135 verbose rebuildBundles   'methods',
+135 verbose rebuildBundles   'microevent.ts',
+135 verbose rebuildBundles   'micromatch',
+135 verbose rebuildBundles   'miller-rabin',
+135 verbose rebuildBundles   'mime',
+135 verbose rebuildBundles   'mime-db',
+135 verbose rebuildBundles   'mime-types',
+135 verbose rebuildBundles   'mimic-fn',
+135 verbose rebuildBundles   'min-document',
+135 verbose rebuildBundles   'mini-create-react-context',
+135 verbose rebuildBundles   'mini-css-extract-plugin',
+135 verbose rebuildBundles   'minimalistic-assert',
+135 verbose rebuildBundles   'minimalistic-crypto-utils',
+135 verbose rebuildBundles   'minimatch',
+135 verbose rebuildBundles   'minimist',
+135 verbose rebuildBundles   'mississippi',
+135 verbose rebuildBundles   'mixin-deep',
+135 verbose rebuildBundles   'mixin-object',
+135 verbose rebuildBundles   'mkdirp',
+135 verbose rebuildBundles   'mobile-detect',
+135 verbose rebuildBundles   'moment',
+135 verbose rebuildBundles   'move-concurrently',
+135 verbose rebuildBundles   'ms',
+135 verbose rebuildBundles   'mute-stream',
+135 verbose rebuildBundles   'nan',
+135 verbose rebuildBundles   'nanomatch',
+135 verbose rebuildBundles   'natural-compare',
+135 verbose rebuildBundles   'negotiator',
+135 verbose rebuildBundles   'neo-async',
+135 verbose rebuildBundles   'next',
+135 verbose rebuildBundles   'next-fonts',
+135 verbose rebuildBundles   'next-images',
+135 verbose rebuildBundles   'next-server',
+135 verbose rebuildBundles   'nice-try',
+135 verbose rebuildBundles   'node-fetch',
+135 verbose rebuildBundles   'node-gyp',
+135 verbose rebuildBundles   'node-libs-browser',
+135 verbose rebuildBundles   'node-releases',
+135 verbose rebuildBundles   'node-sass',
+135 verbose rebuildBundles   'nopt',
+135 verbose rebuildBundles   'normalize-package-data',
+135 verbose rebuildBundles   'normalize-path',
+135 verbose rebuildBundles   'normalize-range',
+135 verbose rebuildBundles   'npm-run-path',
+135 verbose rebuildBundles   'npmlog',
+135 verbose rebuildBundles   'nprogress',
+135 verbose rebuildBundles   'num2fraction',
+135 verbose rebuildBundles   'number-is-nan',
+135 verbose rebuildBundles   'numeral',
+135 verbose rebuildBundles   'oauth-sign',
+135 verbose rebuildBundles   'object-assign',
+135 verbose rebuildBundles   'object-copy',
+135 verbose rebuildBundles   'object-keys',
+135 verbose rebuildBundles   'object-visit',
+135 verbose rebuildBundles   'object.assign',
+135 verbose rebuildBundles   'object.entries',
+135 verbose rebuildBundles   'object.fromentries',
+135 verbose rebuildBundles   'object.pick',
+135 verbose rebuildBundles   'object.values',
+135 verbose rebuildBundles   'on-finished',
+135 verbose rebuildBundles   'on-headers',
+135 verbose rebuildBundles   'once',
+135 verbose rebuildBundles   'onetime',
+135 verbose rebuildBundles   'optionator',
+135 verbose rebuildBundles   'os-browserify',
+135 verbose rebuildBundles   'os-homedir',
+135 verbose rebuildBundles   'os-locale',
+135 verbose rebuildBundles   'os-tmpdir',
+135 verbose rebuildBundles   'osenv',
+135 verbose rebuildBundles   'p-defer',
+135 verbose rebuildBundles   'p-finally',
+135 verbose rebuildBundles   'p-is-promise',
+135 verbose rebuildBundles   'p-limit',
+135 verbose rebuildBundles   'p-locate',
+135 verbose rebuildBundles   'p-map',
+135 verbose rebuildBundles   'p-try',
+135 verbose rebuildBundles   'pako',
+135 verbose rebuildBundles   'parallel-transform',
+135 verbose rebuildBundles   'parchment',
+135 verbose rebuildBundles   'parent-module',
+135 verbose rebuildBundles   'parse-asn1',
+135 verbose rebuildBundles   'parse-json',
+135 verbose rebuildBundles   'parse-passwd',
+135 verbose rebuildBundles   'parse5',
+135 verbose rebuildBundles   'parse5-htmlparser2-tree-adapter',
+135 verbose rebuildBundles   'parseurl',
+135 verbose rebuildBundles   'pascalcase',
+135 verbose rebuildBundles   'path-browserify',
+135 verbose rebuildBundles   'path-dirname',
+135 verbose rebuildBundles   'path-exists',
+135 verbose rebuildBundles   'path-is-absolute',
+135 verbose rebuildBundles   'path-is-inside',
+135 verbose rebuildBundles   'path-key',
+135 verbose rebuildBundles   'path-parse',
+135 verbose rebuildBundles   'path-to-regexp',
+135 verbose rebuildBundles   'path-type',
+135 verbose rebuildBundles   'pbkdf2',
+135 verbose rebuildBundles   'performance-now',
+135 verbose rebuildBundles   'pify',
+135 verbose rebuildBundles   'pinkie',
+135 verbose rebuildBundles   'pinkie-promise',
+135 verbose rebuildBundles   'pkg-dir',
+135 verbose rebuildBundles   'popper.js',
+135 verbose rebuildBundles   'posix-character-classes',
+135 verbose rebuildBundles   'postcss',
+135 verbose rebuildBundles   'postcss-load-config',
+135 verbose rebuildBundles   'postcss-loader',
+135 verbose rebuildBundles   'postcss-modules-extract-imports',
+135 verbose rebuildBundles   'postcss-modules-local-by-default',
+135 verbose rebuildBundles   'postcss-modules-scope',
+135 verbose rebuildBundles   'postcss-modules-values',
+135 verbose rebuildBundles   'postcss-value-parser',
+135 verbose rebuildBundles   'prelude-ls',
+135 verbose rebuildBundles   'private',
+135 verbose rebuildBundles   'process',
+135 verbose rebuildBundles   'process-nextick-args',
+135 verbose rebuildBundles   'progress',
+135 verbose rebuildBundles   'promise',
+135 verbose rebuildBundles   'promise-inflight',
+135 verbose rebuildBundles   'prop-types',
+135 verbose rebuildBundles   'prop-types-exact',
+135 verbose rebuildBundles   'prop-types-extra',
+135 verbose rebuildBundles   'proxy-addr',
+135 verbose rebuildBundles   'prr',
+135 verbose rebuildBundles   'pseudomap',
+135 verbose rebuildBundles   'psl',
+135 verbose rebuildBundles   'public-encrypt',
+135 verbose rebuildBundles   'pump',
+135 verbose rebuildBundles   'pumpify',
+135 verbose rebuildBundles   'punycode',
+135 verbose rebuildBundles   'qs',
+135 verbose rebuildBundles   'query-string',
+135 verbose rebuildBundles   'querystring',
+135 verbose rebuildBundles   'querystring-es3',
+135 verbose rebuildBundles   'quill',
+135 verbose rebuildBundles   'quill-delta',
+135 verbose rebuildBundles   'raf',
+135 verbose rebuildBundles   'raf-schd',
+135 verbose rebuildBundles   'randombytes',
+135 verbose rebuildBundles   'randomfill',
+135 verbose rebuildBundles   'range-parser',
+135 verbose rebuildBundles   'raw-body',
+135 verbose rebuildBundles   'rc-align',
+135 verbose rebuildBundles   'rc-animate',
+135 verbose rebuildBundles   'rc-slider',
+135 verbose rebuildBundles   'rc-tooltip',
+135 verbose rebuildBundles   'rc-trigger',
+135 verbose rebuildBundles   'rc-util',
+135 verbose rebuildBundles   'react',
+135 verbose rebuildBundles   'react-beautiful-dnd',
+135 verbose rebuildBundles   'react-big-calendar',
+135 verbose rebuildBundles   'react-bootstrap-table-next',
+135 verbose rebuildBundles   'react-bootstrap-table2-editor',
+135 verbose rebuildBundles   'react-bootstrap-table2-filter',
+135 verbose rebuildBundles   'react-bootstrap-table2-paginator',
+135 verbose rebuildBundles   'react-bootstrap-table2-toolkit',
+135 verbose rebuildBundles   'react-bootstrap-typeahead',
+135 verbose rebuildBundles   'react-content-loader',
+135 verbose rebuildBundles   'react-context-toolbox',
+135 verbose rebuildBundles   'react-datepicker',
+135 verbose rebuildBundles   'react-dom',
+135 verbose rebuildBundles   'react-dom-factories',
+135 verbose rebuildBundles   'react-draggable',
+135 verbose rebuildBundles   'react-dropzone',
+135 verbose rebuildBundles   'react-error-overlay',
+135 verbose rebuildBundles   'react-fast-compare',
+135 verbose rebuildBundles   'react-grid-layout',
+135 verbose rebuildBundles   'react-helmet',
+135 verbose rebuildBundles   'react-hot-loader',
+135 verbose rebuildBundles   'react-image-crop',
+135 verbose rebuildBundles   'react-is',
+135 verbose rebuildBundles   'react-lifecycles-compat',
+135 verbose rebuildBundles   'react-onclickoutside',
+135 verbose rebuildBundles   'react-overlays',
+135 verbose rebuildBundles   'react-popper',
+135 verbose rebuildBundles   'react-quill',
+135 verbose rebuildBundles   'react-redux',
+135 verbose rebuildBundles   'react-resizable',
+135 verbose rebuildBundles   'react-resize-detector',
+135 verbose rebuildBundles   'react-responsive',
+135 verbose rebuildBundles   'react-router',
+135 verbose rebuildBundles   'react-router-dom',
+135 verbose rebuildBundles   'react-side-effect',
+135 verbose rebuildBundles   'react-smooth',
+135 verbose rebuildBundles   'react-text-mask',
+135 verbose rebuildBundles   'react-toastify',
+135 verbose rebuildBundles   'react-toggle',
+135 verbose rebuildBundles   'react-transition-group',
+135 verbose rebuildBundles   'react-universal-component',
+135 verbose rebuildBundles   'reactstrap',
+135 verbose rebuildBundles   'read-pkg',
+135 verbose rebuildBundles   'read-pkg-up',
+135 verbose rebuildBundles   'readable-stream',
+135 verbose rebuildBundles   'readdirp',
+135 verbose rebuildBundles   'recharts',
+135 verbose rebuildBundles   'recharts-scale',
+135 verbose rebuildBundles   'redent',
+135 verbose rebuildBundles   'reduce-css-calc',
+135 verbose rebuildBundles   'reduce-function-call',
+135 verbose rebuildBundles   'redux',
+135 verbose rebuildBundles   'reflect.ownkeys',
+135 verbose rebuildBundles   'regenerate',
+135 verbose rebuildBundles   'regenerate-unicode-properties',
+135 verbose rebuildBundles   'regenerator-runtime',
+135 verbose rebuildBundles   'regenerator-transform',
+135 verbose rebuildBundles   'regex-not',
+135 verbose rebuildBundles   'regexp-tree',
+135 verbose rebuildBundles   'regexpp',
+135 verbose rebuildBundles   'regexpu-core',
+135 verbose rebuildBundles   'regjsgen',
+135 verbose rebuildBundles   'regjsparser',
+135 verbose rebuildBundles   'remove-trailing-separator',
+135 verbose rebuildBundles   'repeat-element',
+135 verbose rebuildBundles   'repeat-string',
+135 verbose rebuildBundles   'repeating',
+135 verbose rebuildBundles   'request',
+135 verbose rebuildBundles   'require-directory',
+135 verbose rebuildBundles   'require-from-string',
+135 verbose rebuildBundles   'require-main-filename',
+135 verbose rebuildBundles   'resize-observer-polyfill',
+135 verbose rebuildBundles   'resolve',
+135 verbose rebuildBundles   'resolve-cwd',
+135 verbose rebuildBundles   'resolve-dir',
+135 verbose rebuildBundles   'resolve-from',
+135 verbose rebuildBundles   'resolve-pathname',
+135 verbose rebuildBundles   'resolve-url',
+135 verbose rebuildBundles   'restore-cursor',
+135 verbose rebuildBundles   'ret',
+135 verbose rebuildBundles   'rimraf',
+135 verbose rebuildBundles   'ripemd160',
+135 verbose rebuildBundles   'run-async',
+135 verbose rebuildBundles   'run-queue',
+135 verbose rebuildBundles   'rxjs',
+135 verbose rebuildBundles   'safe-buffer',
+135 verbose rebuildBundles   'safe-regex',
+135 verbose rebuildBundles   'safer-buffer',
+135 verbose rebuildBundles   'sass-graph',
+135 verbose rebuildBundles   'sass-loader',
+135 verbose rebuildBundles   'scheduler',
+135 verbose rebuildBundles   'schema-utils',
+135 verbose rebuildBundles   'scroll-into-view-if-needed',
+135 verbose rebuildBundles   'scss-tokenizer',
+135 verbose rebuildBundles   'semver',
+135 verbose rebuildBundles   'send',
+135 verbose rebuildBundles   'serialize-javascript',
+135 verbose rebuildBundles   'serve-static',
+135 verbose rebuildBundles   'set-blocking',
+135 verbose rebuildBundles   'set-value',
+135 verbose rebuildBundles   'setimmediate',
+135 verbose rebuildBundles   'setprototypeof',
+135 verbose rebuildBundles   'sha.js',
+135 verbose rebuildBundles   'shallow-clone',
+135 verbose rebuildBundles   'shallowequal',
+135 verbose rebuildBundles   'shaven',
+135 verbose rebuildBundles   'shebang-command',
+135 verbose rebuildBundles   'shebang-regex',
+135 verbose rebuildBundles   'shell-quote',
+135 verbose rebuildBundles   'signal-exit',
+135 verbose rebuildBundles   'slice-ansi',
+135 verbose rebuildBundles   'snapdragon',
+135 verbose rebuildBundles   'snapdragon-node',
+135 verbose rebuildBundles   'snapdragon-util',
+135 verbose rebuildBundles   'source-list-map',
+135 verbose rebuildBundles   'source-map',
+135 verbose rebuildBundles   'source-map-resolve',
+135 verbose rebuildBundles   'source-map-support',
+135 verbose rebuildBundles   'source-map-url',
+135 verbose rebuildBundles   'spdx-correct',
+135 verbose rebuildBundles   'spdx-exceptions',
+135 verbose rebuildBundles   'spdx-expression-parse',
+135 verbose rebuildBundles   'spdx-license-ids',
+135 verbose rebuildBundles   'split-on-first',
+135 verbose rebuildBundles   'split-string',
+135 verbose rebuildBundles   'sprintf-js',
+135 verbose rebuildBundles   'sshpk',
+135 verbose rebuildBundles   'ssri',
+135 verbose rebuildBundles   'static-extend',
+135 verbose rebuildBundles   'statuses',
+135 verbose rebuildBundles   'stdout-stream',
+135 verbose rebuildBundles   'stream-browserify',
+135 verbose rebuildBundles   'stream-each',
+135 verbose rebuildBundles   'stream-http',
+135 verbose rebuildBundles   'stream-shift',
+135 verbose rebuildBundles   'strict-uri-encode',
+135 verbose rebuildBundles   'string-hash',
+135 verbose rebuildBundles   'string-width',
+135 verbose rebuildBundles   'string_decoder',
+135 verbose rebuildBundles   'strip-ansi',
+135 verbose rebuildBundles   'strip-bom',
+135 verbose rebuildBundles   'strip-eof',
+135 verbose rebuildBundles   'strip-indent',
+135 verbose rebuildBundles   'strip-json-comments',
+135 verbose rebuildBundles   'styled-jsx',
+135 verbose rebuildBundles   'stylis',
+135 verbose rebuildBundles   'stylis-rule-sheet',
+135 verbose rebuildBundles   'supports-color',
+135 verbose rebuildBundles   'symbol-observable',
+135 verbose rebuildBundles   'table',
+135 verbose rebuildBundles   'tapable',
+135 verbose rebuildBundles   'tar',
+135 verbose rebuildBundles   'terser',
+135 verbose rebuildBundles   'terser-webpack-plugin',
+135 verbose rebuildBundles   'text-mask-addons',
+135 verbose rebuildBundles   'text-table',
+135 verbose rebuildBundles   'through',
+135 verbose rebuildBundles   'through2',
+135 verbose rebuildBundles   'timers-browserify',
+135 verbose rebuildBundles   'tiny-invariant',
+135 verbose rebuildBundles   'tiny-warning',
+135 verbose rebuildBundles   'tmp',
+135 verbose rebuildBundles   'to-arraybuffer',
+135 verbose rebuildBundles   'to-fast-properties',
+135 verbose rebuildBundles   'to-object-path',
+135 verbose rebuildBundles   'to-regex',
+135 verbose rebuildBundles   'to-regex-range',
+135 verbose rebuildBundles   'toidentifier',
+135 verbose rebuildBundles   'tough-cookie',
+135 verbose rebuildBundles   'trim-newlines',
+135 verbose rebuildBundles   'trim-right',
+135 verbose rebuildBundles   'true-case-path',
+135 verbose rebuildBundles   'tslib',
+135 verbose rebuildBundles   'tty-aware-progress',
+135 verbose rebuildBundles   'tty-browserify',
+135 verbose rebuildBundles   'tunnel-agent',
+135 verbose rebuildBundles   'tweetnacl',
+135 verbose rebuildBundles   'type-check',
+135 verbose rebuildBundles   'type-is',
+135 verbose rebuildBundles   'typed-styles',
+135 verbose rebuildBundles   'typedarray',
+135 verbose rebuildBundles   'ua-parser-js',
+135 verbose rebuildBundles   'uncontrollable',
+135 verbose rebuildBundles   'underscore',
+135 verbose rebuildBundles   'unfetch',
+135 verbose rebuildBundles   'unicode-canonical-property-names-ecmascript',
+135 verbose rebuildBundles   'unicode-match-property-ecmascript',
+135 verbose rebuildBundles   'unicode-match-property-value-ecmascript',
+135 verbose rebuildBundles   'unicode-property-aliases-ecmascript',
+135 verbose rebuildBundles   'union-value',
+135 verbose rebuildBundles   'unique-filename',
+135 verbose rebuildBundles   'unique-slug',
+135 verbose rebuildBundles   'universalify',
+135 verbose rebuildBundles   'unpipe',
+135 verbose rebuildBundles   'unset-value',
+135 verbose rebuildBundles   'upath',
+135 verbose rebuildBundles   'uri-js',
+135 verbose rebuildBundles   'urix',
+135 verbose rebuildBundles   'url',
+135 verbose rebuildBundles   'url-join',
+135 verbose rebuildBundles   'url-loader',
+135 verbose rebuildBundles   'use',
+135 verbose rebuildBundles   'use-memo-one',
+135 verbose rebuildBundles   'util',
+135 verbose rebuildBundles   'util-deprecate',
+135 verbose rebuildBundles   'utils-merge',
+135 verbose rebuildBundles   'uuid',
+135 verbose rebuildBundles   'v8-compile-cache',
+135 verbose rebuildBundles   'validate-npm-package-license',
+135 verbose rebuildBundles   'value-equal',
+135 verbose rebuildBundles   'vary',
+135 verbose rebuildBundles   'verror',
+135 verbose rebuildBundles   'vm-browserify',
+135 verbose rebuildBundles   'warning',
+135 verbose rebuildBundles   'watchpack',
+135 verbose rebuildBundles   'webpack',
+135 verbose rebuildBundles   'webpack-cli',
+135 verbose rebuildBundles   'webpack-dev-middleware',
+135 verbose rebuildBundles   'webpack-hot-middleware',
+135 verbose rebuildBundles   'webpack-log',
+135 verbose rebuildBundles   'webpack-merge',
+135 verbose rebuildBundles   'webpack-sources',
+135 verbose rebuildBundles   'whatwg-fetch',
+135 verbose rebuildBundles   'which',
+135 verbose rebuildBundles   'which-module',
+135 verbose rebuildBundles   'wide-align',
+135 verbose rebuildBundles   'wordwrap',
+135 verbose rebuildBundles   'worker-farm',
+135 verbose rebuildBundles   'worker-rpc',
+135 verbose rebuildBundles   'wrap-ansi',
+135 verbose rebuildBundles   'wrappy',
+135 verbose rebuildBundles   'write',
+135 verbose rebuildBundles   'xtend',
+135 verbose rebuildBundles   'y18n',
+135 verbose rebuildBundles   'yallist',
+135 verbose rebuildBundles   'yargs',
+135 verbose rebuildBundles   'yargs-parser' ]
+136 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/abbrev
+137 info build /Users/crocslut/Desktop/Git/zpc/node_modules/abbrev
+138 info preinstall abbrev@1.1.1
+139 verbose linkStuff [ false,
+139 verbose linkStuff   false,
+139 verbose linkStuff   false,
+139 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+140 info linkStuff abbrev@1.1.1
+141 verbose linkBins abbrev@1.1.1
+142 verbose linkMans abbrev@1.1.1
+143 verbose rebuildBundles abbrev@1.1.1
+144 info install abbrev@1.1.1
+145 info postinstall abbrev@1.1.1
+146 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/accepts
+147 info build /Users/crocslut/Desktop/Git/zpc/node_modules/accepts
+148 info preinstall accepts@1.3.5
+149 verbose linkStuff [ false,
+149 verbose linkStuff   false,
+149 verbose linkStuff   false,
+149 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+150 info linkStuff accepts@1.3.5
+151 verbose linkBins accepts@1.3.5
+152 verbose linkMans accepts@1.3.5
+153 verbose rebuildBundles accepts@1.3.5
+154 info install accepts@1.3.5
+155 info postinstall accepts@1.3.5
+156 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/acorn
+157 info build /Users/crocslut/Desktop/Git/zpc/node_modules/acorn
+158 info preinstall acorn@6.2.1
+159 verbose linkStuff [ false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+160 info linkStuff acorn@6.2.1
+161 verbose linkBins acorn@6.2.1
+162 verbose link bins [ { acorn: './bin/acorn' },
+162 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+162 verbose link bins   false ]
+163 verbose linkMans acorn@6.2.1
+164 verbose rebuildBundles acorn@6.2.1
+165 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/acorn is being purged
+166 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/acorn
+167 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/acorn
+168 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+169 info install acorn@6.2.1
+170 info postinstall acorn@6.2.1
+171 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/acorn-jsx
+172 info build /Users/crocslut/Desktop/Git/zpc/node_modules/acorn-jsx
+173 info preinstall acorn-jsx@5.0.1
+174 verbose linkStuff [ false,
+174 verbose linkStuff   false,
+174 verbose linkStuff   false,
+174 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+175 info linkStuff acorn-jsx@5.0.1
+176 verbose linkBins acorn-jsx@5.0.1
+177 verbose linkMans acorn-jsx@5.0.1
+178 verbose rebuildBundles acorn-jsx@5.0.1
+179 info install acorn-jsx@5.0.1
+180 info postinstall acorn-jsx@5.0.1
+181 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/add-dom-event-listener
+182 info build /Users/crocslut/Desktop/Git/zpc/node_modules/add-dom-event-listener
+183 info preinstall add-dom-event-listener@1.1.0
+184 verbose linkStuff [ false,
+184 verbose linkStuff   false,
+184 verbose linkStuff   false,
+184 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+185 info linkStuff add-dom-event-listener@1.1.0
+186 verbose linkBins add-dom-event-listener@1.1.0
+187 verbose linkMans add-dom-event-listener@1.1.0
+188 verbose rebuildBundles add-dom-event-listener@1.1.0
+189 info install add-dom-event-listener@1.1.0
+190 info postinstall add-dom-event-listener@1.1.0
+191 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ajv
+192 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ajv
+193 info preinstall ajv@6.10.0
+194 verbose linkStuff [ false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+195 info linkStuff ajv@6.10.0
+196 verbose linkBins ajv@6.10.0
+197 verbose linkMans ajv@6.10.0
+198 verbose rebuildBundles ajv@6.10.0
+199 info install ajv@6.10.0
+200 info postinstall ajv@6.10.0
+201 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ajv-errors
+202 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ajv-errors
+203 info preinstall ajv-errors@1.0.1
+204 verbose linkStuff [ false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+205 info linkStuff ajv-errors@1.0.1
+206 verbose linkBins ajv-errors@1.0.1
+207 verbose linkMans ajv-errors@1.0.1
+208 verbose rebuildBundles ajv-errors@1.0.1
+209 info install ajv-errors@1.0.1
+210 info postinstall ajv-errors@1.0.1
+211 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ajv-keywords
+212 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ajv-keywords
+213 info preinstall ajv-keywords@3.4.0
+214 verbose linkStuff [ false,
+214 verbose linkStuff   false,
+214 verbose linkStuff   false,
+214 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+215 info linkStuff ajv-keywords@3.4.0
+216 verbose linkBins ajv-keywords@3.4.0
+217 verbose linkMans ajv-keywords@3.4.0
+218 verbose rebuildBundles ajv-keywords@3.4.0
+219 info install ajv-keywords@3.4.0
+220 info postinstall ajv-keywords@3.4.0
+221 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/amdefine
+222 info build /Users/crocslut/Desktop/Git/zpc/node_modules/amdefine
+223 info preinstall amdefine@1.0.1
+224 verbose linkStuff [ false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+225 info linkStuff amdefine@1.0.1
+226 verbose linkBins amdefine@1.0.1
+227 verbose linkMans amdefine@1.0.1
+228 verbose rebuildBundles amdefine@1.0.1
+229 info install amdefine@1.0.1
+230 info postinstall amdefine@1.0.1
+231 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-core
+232 info build /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-core
+233 info preinstall amp-toolbox-core@1.2.0-alpha.2
+234 verbose linkStuff [ false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+235 info linkStuff amp-toolbox-core@1.2.0-alpha.2
+236 verbose linkBins amp-toolbox-core@1.2.0-alpha.2
+237 verbose linkMans amp-toolbox-core@1.2.0-alpha.2
+238 verbose rebuildBundles amp-toolbox-core@1.2.0-alpha.2
+239 info install amp-toolbox-core@1.2.0-alpha.2
+240 info postinstall amp-toolbox-core@1.2.0-alpha.2
+241 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-optimizer
+242 info build /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-optimizer
+243 info preinstall amp-toolbox-optimizer@1.2.0-alpha.1
+244 verbose linkStuff [ false,
+244 verbose linkStuff   false,
+244 verbose linkStuff   false,
+244 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+245 info linkStuff amp-toolbox-optimizer@1.2.0-alpha.1
+246 verbose linkBins amp-toolbox-optimizer@1.2.0-alpha.1
+247 verbose linkMans amp-toolbox-optimizer@1.2.0-alpha.1
+248 verbose rebuildBundles amp-toolbox-optimizer@1.2.0-alpha.1
+249 info install amp-toolbox-optimizer@1.2.0-alpha.1
+250 info postinstall amp-toolbox-optimizer@1.2.0-alpha.1
+251 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-runtime-version
+252 info build /Users/crocslut/Desktop/Git/zpc/node_modules/amp-toolbox-runtime-version
+253 info preinstall amp-toolbox-runtime-version@1.2.0-alpha.2
+254 verbose linkStuff [ false,
+254 verbose linkStuff   false,
+254 verbose linkStuff   false,
+254 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+255 info linkStuff amp-toolbox-runtime-version@1.2.0-alpha.2
+256 verbose linkBins amp-toolbox-runtime-version@1.2.0-alpha.2
+257 verbose linkMans amp-toolbox-runtime-version@1.2.0-alpha.2
+258 verbose rebuildBundles amp-toolbox-runtime-version@1.2.0-alpha.2
+259 info install amp-toolbox-runtime-version@1.2.0-alpha.2
+260 info postinstall amp-toolbox-runtime-version@1.2.0-alpha.2
+261 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/amphtml-validator
+262 info build /Users/crocslut/Desktop/Git/zpc/node_modules/amphtml-validator
+263 info preinstall amphtml-validator@1.0.23
+264 verbose linkStuff [ false,
+264 verbose linkStuff   false,
+264 verbose linkStuff   false,
+264 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+265 info linkStuff amphtml-validator@1.0.23
+266 verbose linkBins amphtml-validator@1.0.23
+267 verbose link bins [ { 'amphtml-validator': 'index.js' },
+267 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+267 verbose link bins   false ]
+268 verbose linkMans amphtml-validator@1.0.23
+269 verbose rebuildBundles amphtml-validator@1.0.23
+270 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/amphtml-validator is being purged
+271 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/amphtml-validator
+272 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/amphtml-validator
+273 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+274 info install amphtml-validator@1.0.23
+275 info postinstall amphtml-validator@1.0.23
+276 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/animejs
+277 info build /Users/crocslut/Desktop/Git/zpc/node_modules/animejs
+278 info preinstall animejs@3.1.0
+279 verbose linkStuff [ false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+280 info linkStuff animejs@3.1.0
+281 verbose linkBins animejs@3.1.0
+282 verbose linkMans animejs@3.1.0
+283 verbose rebuildBundles animejs@3.1.0
+284 info install animejs@3.1.0
+285 info postinstall animejs@3.1.0
+286 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-colors
+287 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-colors
+288 info preinstall ansi-colors@3.2.4
+289 verbose linkStuff [ false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+290 info linkStuff ansi-colors@3.2.4
+291 verbose linkBins ansi-colors@3.2.4
+292 verbose linkMans ansi-colors@3.2.4
+293 verbose rebuildBundles ansi-colors@3.2.4
+294 info install ansi-colors@3.2.4
+295 info postinstall ansi-colors@3.2.4
+296 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-escapes
+297 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-escapes
+298 info preinstall ansi-escapes@3.2.0
+299 verbose linkStuff [ false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+300 info linkStuff ansi-escapes@3.2.0
+301 verbose linkBins ansi-escapes@3.2.0
+302 verbose linkMans ansi-escapes@3.2.0
+303 verbose rebuildBundles ansi-escapes@3.2.0
+304 info install ansi-escapes@3.2.0
+305 info postinstall ansi-escapes@3.2.0
+306 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-html
+307 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-html
+308 info preinstall ansi-html@0.0.7
+309 verbose linkStuff [ false,
+309 verbose linkStuff   false,
+309 verbose linkStuff   false,
+309 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+310 info linkStuff ansi-html@0.0.7
+311 verbose linkBins ansi-html@0.0.7
+312 verbose link bins [ { 'ansi-html': './bin/ansi-html' },
+312 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+312 verbose link bins   false ]
+313 verbose linkMans ansi-html@0.0.7
+314 verbose rebuildBundles ansi-html@0.0.7
+315 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/ansi-html is being purged
+316 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/ansi-html
+317 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/ansi-html
+318 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+319 info install ansi-html@0.0.7
+320 info postinstall ansi-html@0.0.7
+321 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-regex
+322 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-regex
+323 info preinstall ansi-regex@2.1.1
+324 verbose linkStuff [ false,
+324 verbose linkStuff   false,
+324 verbose linkStuff   false,
+324 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+325 info linkStuff ansi-regex@2.1.1
+326 verbose linkBins ansi-regex@2.1.1
+327 verbose linkMans ansi-regex@2.1.1
+328 verbose rebuildBundles ansi-regex@2.1.1
+329 info install ansi-regex@2.1.1
+330 info postinstall ansi-regex@2.1.1
+331 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-styles
+332 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ansi-styles
+333 info preinstall ansi-styles@2.2.1
+334 verbose linkStuff [ false,
+334 verbose linkStuff   false,
+334 verbose linkStuff   false,
+334 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+335 info linkStuff ansi-styles@2.2.1
+336 verbose linkBins ansi-styles@2.2.1
+337 verbose linkMans ansi-styles@2.2.1
+338 verbose rebuildBundles ansi-styles@2.2.1
+339 info install ansi-styles@2.2.1
+340 info postinstall ansi-styles@2.2.1
+341 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/anymatch
+342 info build /Users/crocslut/Desktop/Git/zpc/node_modules/anymatch
+343 info preinstall anymatch@2.0.0
+344 verbose linkStuff [ false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+345 info linkStuff anymatch@2.0.0
+346 verbose linkBins anymatch@2.0.0
+347 verbose linkMans anymatch@2.0.0
+348 verbose rebuildBundles anymatch@2.0.0
+349 verbose rebuildBundles [ 'normalize-path' ]
+350 info install anymatch@2.0.0
+351 info postinstall anymatch@2.0.0
+352 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/aproba
+353 info build /Users/crocslut/Desktop/Git/zpc/node_modules/aproba
+354 info preinstall aproba@1.2.0
+355 verbose linkStuff [ false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+356 info linkStuff aproba@1.2.0
+357 verbose linkBins aproba@1.2.0
+358 verbose linkMans aproba@1.2.0
+359 verbose rebuildBundles aproba@1.2.0
+360 info install aproba@1.2.0
+361 info postinstall aproba@1.2.0
+362 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/are-we-there-yet
+363 info build /Users/crocslut/Desktop/Git/zpc/node_modules/are-we-there-yet
+364 info preinstall are-we-there-yet@1.1.5
+365 verbose linkStuff [ false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+366 info linkStuff are-we-there-yet@1.1.5
+367 verbose linkBins are-we-there-yet@1.1.5
+368 verbose linkMans are-we-there-yet@1.1.5
+369 verbose rebuildBundles are-we-there-yet@1.1.5
+370 info install are-we-there-yet@1.1.5
+371 info postinstall are-we-there-yet@1.1.5
+372 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/argparse
+373 info build /Users/crocslut/Desktop/Git/zpc/node_modules/argparse
+374 info preinstall argparse@1.0.10
+375 verbose linkStuff [ false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+376 info linkStuff argparse@1.0.10
+377 verbose linkBins argparse@1.0.10
+378 verbose linkMans argparse@1.0.10
+379 verbose rebuildBundles argparse@1.0.10
+380 info install argparse@1.0.10
+381 info postinstall argparse@1.0.10
+382 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/aria-query
+383 info build /Users/crocslut/Desktop/Git/zpc/node_modules/aria-query
+384 info preinstall aria-query@3.0.0
+385 verbose linkStuff [ false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+386 info linkStuff aria-query@3.0.0
+387 verbose linkBins aria-query@3.0.0
+388 verbose linkMans aria-query@3.0.0
+389 verbose rebuildBundles aria-query@3.0.0
+390 verbose rebuildBundles [ 'commander' ]
+391 info install aria-query@3.0.0
+392 info postinstall aria-query@3.0.0
+393 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/arr-diff
+394 info build /Users/crocslut/Desktop/Git/zpc/node_modules/arr-diff
+395 info preinstall arr-diff@4.0.0
+396 verbose linkStuff [ false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+397 info linkStuff arr-diff@4.0.0
+398 verbose linkBins arr-diff@4.0.0
+399 verbose linkMans arr-diff@4.0.0
+400 verbose rebuildBundles arr-diff@4.0.0
+401 info install arr-diff@4.0.0
+402 info postinstall arr-diff@4.0.0
+403 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/arr-flatten
+404 info build /Users/crocslut/Desktop/Git/zpc/node_modules/arr-flatten
+405 info preinstall arr-flatten@1.1.0
+406 verbose linkStuff [ false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+407 info linkStuff arr-flatten@1.1.0
+408 verbose linkBins arr-flatten@1.1.0
+409 verbose linkMans arr-flatten@1.1.0
+410 verbose rebuildBundles arr-flatten@1.1.0
+411 info install arr-flatten@1.1.0
+412 info postinstall arr-flatten@1.1.0
+413 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/arr-union
+414 info build /Users/crocslut/Desktop/Git/zpc/node_modules/arr-union
+415 info preinstall arr-union@3.1.0
+416 verbose linkStuff [ false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+417 info linkStuff arr-union@3.1.0
+418 verbose linkBins arr-union@3.1.0
+419 verbose linkMans arr-union@3.1.0
+420 verbose rebuildBundles arr-union@3.1.0
+421 info install arr-union@3.1.0
+422 info postinstall arr-union@3.1.0
+423 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-filter
+424 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-filter
+425 info preinstall array-filter@0.0.1
+426 verbose linkStuff [ false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+427 info linkStuff array-filter@0.0.1
+428 verbose linkBins array-filter@0.0.1
+429 verbose linkMans array-filter@0.0.1
+430 verbose rebuildBundles array-filter@0.0.1
+431 info install array-filter@0.0.1
+432 info postinstall array-filter@0.0.1
+433 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-find-index
+434 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-find-index
+435 info preinstall array-find-index@1.0.2
+436 verbose linkStuff [ false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+437 info linkStuff array-find-index@1.0.2
+438 verbose linkBins array-find-index@1.0.2
+439 verbose linkMans array-find-index@1.0.2
+440 verbose rebuildBundles array-find-index@1.0.2
+441 info install array-find-index@1.0.2
+442 info postinstall array-find-index@1.0.2
+443 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-flatten
+444 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-flatten
+445 info preinstall array-flatten@1.1.1
+446 verbose linkStuff [ false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+447 info linkStuff array-flatten@1.1.1
+448 verbose linkBins array-flatten@1.1.1
+449 verbose linkMans array-flatten@1.1.1
+450 verbose rebuildBundles array-flatten@1.1.1
+451 info install array-flatten@1.1.1
+452 info postinstall array-flatten@1.1.1
+453 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-includes
+454 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-includes
+455 info preinstall array-includes@3.0.3
+456 verbose linkStuff [ false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+457 info linkStuff array-includes@3.0.3
+458 verbose linkBins array-includes@3.0.3
+459 verbose linkMans array-includes@3.0.3
+460 verbose rebuildBundles array-includes@3.0.3
+461 info install array-includes@3.0.3
+462 info postinstall array-includes@3.0.3
+463 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-map
+464 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-map
+465 info preinstall array-map@0.0.0
+466 verbose linkStuff [ false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+467 info linkStuff array-map@0.0.0
+468 verbose linkBins array-map@0.0.0
+469 verbose linkMans array-map@0.0.0
+470 verbose rebuildBundles array-map@0.0.0
+471 info install array-map@0.0.0
+472 info postinstall array-map@0.0.0
+473 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-reduce
+474 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-reduce
+475 info preinstall array-reduce@0.0.0
+476 verbose linkStuff [ false,
+476 verbose linkStuff   false,
+476 verbose linkStuff   false,
+476 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+477 info linkStuff array-reduce@0.0.0
+478 verbose linkBins array-reduce@0.0.0
+479 verbose linkMans array-reduce@0.0.0
+480 verbose rebuildBundles array-reduce@0.0.0
+481 info install array-reduce@0.0.0
+482 info postinstall array-reduce@0.0.0
+483 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-union
+484 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-union
+485 info preinstall array-union@1.0.2
+486 verbose linkStuff [ false,
+486 verbose linkStuff   false,
+486 verbose linkStuff   false,
+486 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+487 info linkStuff array-union@1.0.2
+488 verbose linkBins array-union@1.0.2
+489 verbose linkMans array-union@1.0.2
+490 verbose rebuildBundles array-union@1.0.2
+491 info install array-union@1.0.2
+492 info postinstall array-union@1.0.2
+493 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-uniq
+494 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-uniq
+495 info preinstall array-uniq@1.0.3
+496 verbose linkStuff [ false,
+496 verbose linkStuff   false,
+496 verbose linkStuff   false,
+496 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+497 info linkStuff array-uniq@1.0.3
+498 verbose linkBins array-uniq@1.0.3
+499 verbose linkMans array-uniq@1.0.3
+500 verbose rebuildBundles array-uniq@1.0.3
+501 info install array-uniq@1.0.3
+502 info postinstall array-uniq@1.0.3
+503 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/array-unique
+504 info build /Users/crocslut/Desktop/Git/zpc/node_modules/array-unique
+505 info preinstall array-unique@0.3.2
+506 verbose linkStuff [ false,
+506 verbose linkStuff   false,
+506 verbose linkStuff   false,
+506 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+507 info linkStuff array-unique@0.3.2
+508 verbose linkBins array-unique@0.3.2
+509 verbose linkMans array-unique@0.3.2
+510 verbose rebuildBundles array-unique@0.3.2
+511 info install array-unique@0.3.2
+512 info postinstall array-unique@0.3.2
+513 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/asap
+514 info build /Users/crocslut/Desktop/Git/zpc/node_modules/asap
+515 info preinstall asap@2.0.6
+516 verbose linkStuff [ false,
+516 verbose linkStuff   false,
+516 verbose linkStuff   false,
+516 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+517 info linkStuff asap@2.0.6
+518 verbose linkBins asap@2.0.6
+519 verbose linkMans asap@2.0.6
+520 verbose rebuildBundles asap@2.0.6
+521 info install asap@2.0.6
+522 info postinstall asap@2.0.6
+523 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/asn1
+524 info build /Users/crocslut/Desktop/Git/zpc/node_modules/asn1
+525 info preinstall asn1@0.2.4
+526 verbose linkStuff [ false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+527 info linkStuff asn1@0.2.4
+528 verbose linkBins asn1@0.2.4
+529 verbose linkMans asn1@0.2.4
+530 verbose rebuildBundles asn1@0.2.4
+531 info install asn1@0.2.4
+532 info postinstall asn1@0.2.4
+533 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/asn1.js
+534 info build /Users/crocslut/Desktop/Git/zpc/node_modules/asn1.js
+535 info preinstall asn1.js@4.10.1
+536 verbose linkStuff [ false,
+536 verbose linkStuff   false,
+536 verbose linkStuff   false,
+536 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+537 info linkStuff asn1.js@4.10.1
+538 verbose linkBins asn1.js@4.10.1
+539 verbose linkMans asn1.js@4.10.1
+540 verbose rebuildBundles asn1.js@4.10.1
+541 info install asn1.js@4.10.1
+542 info postinstall asn1.js@4.10.1
+543 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/assert
+544 info build /Users/crocslut/Desktop/Git/zpc/node_modules/assert
+545 info preinstall assert@1.5.0
+546 verbose linkStuff [ false,
+546 verbose linkStuff   false,
+546 verbose linkStuff   false,
+546 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+547 info linkStuff assert@1.5.0
+548 verbose linkBins assert@1.5.0
+549 verbose linkMans assert@1.5.0
+550 verbose rebuildBundles assert@1.5.0
+551 verbose rebuildBundles [ 'inherits', 'util' ]
+552 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/assert/node_modules/inherits
+553 info build /Users/crocslut/Desktop/Git/zpc/node_modules/assert/node_modules/inherits
+554 info preinstall inherits@2.0.1
+555 verbose linkStuff [ false,
+555 verbose linkStuff   false,
+555 verbose linkStuff   false,
+555 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/assert/node_modules' ]
+556 info linkStuff inherits@2.0.1
+557 verbose linkBins inherits@2.0.1
+558 verbose linkMans inherits@2.0.1
+559 verbose rebuildBundles inherits@2.0.1
+560 info install inherits@2.0.1
+561 info postinstall inherits@2.0.1
+562 info install assert@1.5.0
+563 info postinstall assert@1.5.0
+564 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/assert-plus
+565 info build /Users/crocslut/Desktop/Git/zpc/node_modules/assert-plus
+566 info preinstall assert-plus@1.0.0
+567 verbose linkStuff [ false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+568 info linkStuff assert-plus@1.0.0
+569 verbose linkBins assert-plus@1.0.0
+570 verbose linkMans assert-plus@1.0.0
+571 verbose rebuildBundles assert-plus@1.0.0
+572 info install assert-plus@1.0.0
+573 info postinstall assert-plus@1.0.0
+574 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/assign-symbols
+575 info build /Users/crocslut/Desktop/Git/zpc/node_modules/assign-symbols
+576 info preinstall assign-symbols@1.0.0
+577 verbose linkStuff [ false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+578 info linkStuff assign-symbols@1.0.0
+579 verbose linkBins assign-symbols@1.0.0
+580 verbose linkMans assign-symbols@1.0.0
+581 verbose rebuildBundles assign-symbols@1.0.0
+582 info install assign-symbols@1.0.0
+583 info postinstall assign-symbols@1.0.0
+584 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/ast-types-flow
+585 info build /Users/crocslut/Desktop/Git/zpc/node_modules/ast-types-flow
+586 info preinstall ast-types-flow@0.0.7
+587 verbose linkStuff [ false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+588 info linkStuff ast-types-flow@0.0.7
+589 verbose linkBins ast-types-flow@0.0.7
+590 verbose linkMans ast-types-flow@0.0.7
+591 verbose rebuildBundles ast-types-flow@0.0.7
+592 info install ast-types-flow@0.0.7
+593 info postinstall ast-types-flow@0.0.7
+594 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/astral-regex
+595 info build /Users/crocslut/Desktop/Git/zpc/node_modules/astral-regex
+596 info preinstall astral-regex@1.0.0
+597 verbose linkStuff [ false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+598 info linkStuff astral-regex@1.0.0
+599 verbose linkBins astral-regex@1.0.0
+600 verbose linkMans astral-regex@1.0.0
+601 verbose rebuildBundles astral-regex@1.0.0
+602 info install astral-regex@1.0.0
+603 info postinstall astral-regex@1.0.0
+604 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/async
+605 info build /Users/crocslut/Desktop/Git/zpc/node_modules/async
+606 info preinstall async@2.6.2
+607 verbose linkStuff [ false,
+607 verbose linkStuff   false,
+607 verbose linkStuff   false,
+607 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+608 info linkStuff async@2.6.2
+609 verbose linkBins async@2.6.2
+610 verbose linkMans async@2.6.2
+611 verbose rebuildBundles async@2.6.2
+612 info install async@2.6.2
+613 info postinstall async@2.6.2
+614 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/async-each
+615 info build /Users/crocslut/Desktop/Git/zpc/node_modules/async-each
+616 info preinstall async-each@1.0.3
+617 verbose linkStuff [ false,
+617 verbose linkStuff   false,
+617 verbose linkStuff   false,
+617 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+618 info linkStuff async-each@1.0.3
+619 verbose linkBins async-each@1.0.3
+620 verbose linkMans async-each@1.0.3
+621 verbose rebuildBundles async-each@1.0.3
+622 info install async-each@1.0.3
+623 info postinstall async-each@1.0.3
+624 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/async-foreach
+625 info build /Users/crocslut/Desktop/Git/zpc/node_modules/async-foreach
+626 info preinstall async-foreach@0.1.3
+627 verbose linkStuff [ false,
+627 verbose linkStuff   false,
+627 verbose linkStuff   false,
+627 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+628 info linkStuff async-foreach@0.1.3
+629 verbose linkBins async-foreach@0.1.3
+630 verbose linkMans async-foreach@0.1.3
+631 verbose rebuildBundles async-foreach@0.1.3
+632 info install async-foreach@0.1.3
+633 info postinstall async-foreach@0.1.3
+634 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/async-sema
+635 info build /Users/crocslut/Desktop/Git/zpc/node_modules/async-sema
+636 info preinstall async-sema@3.0.0
+637 verbose linkStuff [ false,
+637 verbose linkStuff   false,
+637 verbose linkStuff   false,
+637 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+638 info linkStuff async-sema@3.0.0
+639 verbose linkBins async-sema@3.0.0
+640 verbose linkMans async-sema@3.0.0
+641 verbose rebuildBundles async-sema@3.0.0
+642 info install async-sema@3.0.0
+643 info postinstall async-sema@3.0.0
+644 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/asynckit
+645 info build /Users/crocslut/Desktop/Git/zpc/node_modules/asynckit
+646 info preinstall asynckit@0.4.0
+647 verbose linkStuff [ false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+648 info linkStuff asynckit@0.4.0
+649 verbose linkBins asynckit@0.4.0
+650 verbose linkMans asynckit@0.4.0
+651 verbose rebuildBundles asynckit@0.4.0
+652 info install asynckit@0.4.0
+653 info postinstall asynckit@0.4.0
+654 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/atob
+655 info build /Users/crocslut/Desktop/Git/zpc/node_modules/atob
+656 info preinstall atob@2.1.2
+657 verbose linkStuff [ false,
+657 verbose linkStuff   false,
+657 verbose linkStuff   false,
+657 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+658 info linkStuff atob@2.1.2
+659 verbose linkBins atob@2.1.2
+660 verbose link bins [ { atob: 'bin/atob.js' },
+660 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+660 verbose link bins   false ]
+661 verbose linkMans atob@2.1.2
+662 verbose rebuildBundles atob@2.1.2
+663 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/atob is being purged
+664 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/atob
+665 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/atob
+666 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+667 info install atob@2.1.2
+668 info postinstall atob@2.1.2
+669 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/attr-accept
+670 info build /Users/crocslut/Desktop/Git/zpc/node_modules/attr-accept
+671 info preinstall attr-accept@1.1.3
+672 verbose linkStuff [ false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+673 info linkStuff attr-accept@1.1.3
+674 verbose linkBins attr-accept@1.1.3
+675 verbose linkMans attr-accept@1.1.3
+676 verbose rebuildBundles attr-accept@1.1.3
+677 info install attr-accept@1.1.3
+678 info postinstall attr-accept@1.1.3
+679 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/autodll-webpack-plugin
+680 info build /Users/crocslut/Desktop/Git/zpc/node_modules/autodll-webpack-plugin
+681 info preinstall autodll-webpack-plugin@0.4.2
+682 verbose linkStuff [ false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+683 info linkStuff autodll-webpack-plugin@0.4.2
+684 verbose linkBins autodll-webpack-plugin@0.4.2
+685 verbose linkMans autodll-webpack-plugin@0.4.2
+686 verbose rebuildBundles autodll-webpack-plugin@0.4.2
+687 info install autodll-webpack-plugin@0.4.2
+688 info postinstall autodll-webpack-plugin@0.4.2
+689 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/aws-sign2
+690 info build /Users/crocslut/Desktop/Git/zpc/node_modules/aws-sign2
+691 info preinstall aws-sign2@0.7.0
+692 verbose linkStuff [ false,
+692 verbose linkStuff   false,
+692 verbose linkStuff   false,
+692 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+693 info linkStuff aws-sign2@0.7.0
+694 verbose linkBins aws-sign2@0.7.0
+695 verbose linkMans aws-sign2@0.7.0
+696 verbose rebuildBundles aws-sign2@0.7.0
+697 info install aws-sign2@0.7.0
+698 info postinstall aws-sign2@0.7.0
+699 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/aws4
+700 info build /Users/crocslut/Desktop/Git/zpc/node_modules/aws4
+701 info preinstall aws4@1.8.0
+702 verbose linkStuff [ false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+703 info linkStuff aws4@1.8.0
+704 verbose linkBins aws4@1.8.0
+705 verbose linkMans aws4@1.8.0
+706 verbose rebuildBundles aws4@1.8.0
+707 info install aws4@1.8.0
+708 info postinstall aws4@1.8.0
+709 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/axobject-query
+710 info build /Users/crocslut/Desktop/Git/zpc/node_modules/axobject-query
+711 info preinstall axobject-query@2.0.2
+712 verbose linkStuff [ false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+713 info linkStuff axobject-query@2.0.2
+714 verbose linkBins axobject-query@2.0.2
+715 verbose linkMans axobject-query@2.0.2
+716 verbose rebuildBundles axobject-query@2.0.2
+717 info install axobject-query@2.0.2
+718 info postinstall axobject-query@2.0.2
+719 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-code-frame
+720 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-code-frame
+721 info preinstall babel-code-frame@6.26.0
+722 verbose linkStuff [ false,
+722 verbose linkStuff   false,
+722 verbose linkStuff   false,
+722 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+723 info linkStuff babel-code-frame@6.26.0
+724 verbose linkBins babel-code-frame@6.26.0
+725 verbose linkMans babel-code-frame@6.26.0
+726 verbose rebuildBundles babel-code-frame@6.26.0
+727 info install babel-code-frame@6.26.0
+728 info postinstall babel-code-frame@6.26.0
+729 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-core
+730 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-core
+731 info preinstall babel-core@7.0.0-bridge.0
+732 verbose linkStuff [ false,
+732 verbose linkStuff   false,
+732 verbose linkStuff   false,
+732 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+733 info linkStuff babel-core@7.0.0-bridge.0
+734 verbose linkBins babel-core@7.0.0-bridge.0
+735 verbose linkMans babel-core@7.0.0-bridge.0
+736 verbose rebuildBundles babel-core@7.0.0-bridge.0
+737 info install babel-core@7.0.0-bridge.0
+738 info postinstall babel-core@7.0.0-bridge.0
+739 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader
+740 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader
+741 info preinstall babel-loader@8.0.6
+742 verbose linkStuff [ false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+743 info linkStuff babel-loader@8.0.6
+744 verbose linkBins babel-loader@8.0.6
+745 verbose linkMans babel-loader@8.0.6
+746 verbose rebuildBundles babel-loader@8.0.6
+747 verbose rebuildBundles [ 'find-cache-dir',
+747 verbose rebuildBundles   'find-up',
+747 verbose rebuildBundles   'locate-path',
+747 verbose rebuildBundles   'make-dir',
+747 verbose rebuildBundles   'p-limit',
+747 verbose rebuildBundles   'p-locate',
+747 verbose rebuildBundles   'p-try',
+747 verbose rebuildBundles   'pify',
+747 verbose rebuildBundles   'pkg-dir' ]
+748 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/find-up
+749 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/find-up
+750 info preinstall find-up@3.0.0
+751 verbose linkStuff [ false,
+751 verbose linkStuff   false,
+751 verbose linkStuff   false,
+751 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+752 info linkStuff find-up@3.0.0
+753 verbose linkBins find-up@3.0.0
+754 verbose linkMans find-up@3.0.0
+755 verbose rebuildBundles find-up@3.0.0
+756 info install find-up@3.0.0
+757 info postinstall find-up@3.0.0
+758 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/locate-path
+759 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/locate-path
+760 info preinstall locate-path@3.0.0
+761 verbose linkStuff [ false,
+761 verbose linkStuff   false,
+761 verbose linkStuff   false,
+761 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+762 info linkStuff locate-path@3.0.0
+763 verbose linkBins locate-path@3.0.0
+764 verbose linkMans locate-path@3.0.0
+765 verbose rebuildBundles locate-path@3.0.0
+766 info install locate-path@3.0.0
+767 info postinstall locate-path@3.0.0
+768 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/make-dir
+769 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/make-dir
+770 info preinstall make-dir@2.1.0
+771 verbose linkStuff [ false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   false,
+771 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+772 info linkStuff make-dir@2.1.0
+773 verbose linkBins make-dir@2.1.0
+774 verbose linkMans make-dir@2.1.0
+775 verbose rebuildBundles make-dir@2.1.0
+776 info install make-dir@2.1.0
+777 info postinstall make-dir@2.1.0
+778 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-limit
+779 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-limit
+780 info preinstall p-limit@2.2.0
+781 verbose linkStuff [ false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+782 info linkStuff p-limit@2.2.0
+783 verbose linkBins p-limit@2.2.0
+784 verbose linkMans p-limit@2.2.0
+785 verbose rebuildBundles p-limit@2.2.0
+786 info install p-limit@2.2.0
+787 info postinstall p-limit@2.2.0
+788 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-locate
+789 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-locate
+790 info preinstall p-locate@3.0.0
+791 verbose linkStuff [ false,
+791 verbose linkStuff   false,
+791 verbose linkStuff   false,
+791 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+792 info linkStuff p-locate@3.0.0
+793 verbose linkBins p-locate@3.0.0
+794 verbose linkMans p-locate@3.0.0
+795 verbose rebuildBundles p-locate@3.0.0
+796 info install p-locate@3.0.0
+797 info postinstall p-locate@3.0.0
+798 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-try
+799 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/p-try
+800 info preinstall p-try@2.2.0
+801 verbose linkStuff [ false,
+801 verbose linkStuff   false,
+801 verbose linkStuff   false,
+801 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+802 info linkStuff p-try@2.2.0
+803 verbose linkBins p-try@2.2.0
+804 verbose linkMans p-try@2.2.0
+805 verbose rebuildBundles p-try@2.2.0
+806 info install p-try@2.2.0
+807 info postinstall p-try@2.2.0
+808 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/pkg-dir
+809 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules/pkg-dir
+810 info preinstall pkg-dir@3.0.0
+811 verbose linkStuff [ false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/babel-loader/node_modules' ]
+812 info linkStuff pkg-dir@3.0.0
+813 verbose linkBins pkg-dir@3.0.0
+814 verbose linkMans pkg-dir@3.0.0
+815 verbose rebuildBundles pkg-dir@3.0.0
+816 info install pkg-dir@3.0.0
+817 info postinstall pkg-dir@3.0.0
+818 info install babel-loader@8.0.6
+819 info postinstall babel-loader@8.0.6
+820 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-dynamic-import-node
+821 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-dynamic-import-node
+822 info preinstall babel-plugin-dynamic-import-node@2.3.0
+823 verbose linkStuff [ false,
+823 verbose linkStuff   false,
+823 verbose linkStuff   false,
+823 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+824 info linkStuff babel-plugin-dynamic-import-node@2.3.0
+825 verbose linkBins babel-plugin-dynamic-import-node@2.3.0
+826 verbose linkMans babel-plugin-dynamic-import-node@2.3.0
+827 verbose rebuildBundles babel-plugin-dynamic-import-node@2.3.0
+828 info install babel-plugin-dynamic-import-node@2.3.0
+829 info postinstall babel-plugin-dynamic-import-node@2.3.0
+830 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-react-require
+831 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-react-require
+832 info preinstall babel-plugin-react-require@3.0.0
+833 verbose linkStuff [ false,
+833 verbose linkStuff   false,
+833 verbose linkStuff   false,
+833 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+834 info linkStuff babel-plugin-react-require@3.0.0
+835 verbose linkBins babel-plugin-react-require@3.0.0
+836 verbose linkMans babel-plugin-react-require@3.0.0
+837 verbose rebuildBundles babel-plugin-react-require@3.0.0
+838 info install babel-plugin-react-require@3.0.0
+839 info postinstall babel-plugin-react-require@3.0.0
+840 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-syntax-jsx
+841 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-syntax-jsx
+842 info preinstall babel-plugin-syntax-jsx@6.18.0
+843 verbose linkStuff [ false,
+843 verbose linkStuff   false,
+843 verbose linkStuff   false,
+843 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+844 info linkStuff babel-plugin-syntax-jsx@6.18.0
+845 verbose linkBins babel-plugin-syntax-jsx@6.18.0
+846 verbose linkMans babel-plugin-syntax-jsx@6.18.0
+847 verbose rebuildBundles babel-plugin-syntax-jsx@6.18.0
+848 info install babel-plugin-syntax-jsx@6.18.0
+849 info postinstall babel-plugin-syntax-jsx@6.18.0
+850 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-transform-async-to-promises
+851 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-transform-async-to-promises
+852 info preinstall babel-plugin-transform-async-to-promises@0.8.10
+853 verbose linkStuff [ false,
+853 verbose linkStuff   false,
+853 verbose linkStuff   false,
+853 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+854 info linkStuff babel-plugin-transform-async-to-promises@0.8.10
+855 verbose linkBins babel-plugin-transform-async-to-promises@0.8.10
+856 verbose linkMans babel-plugin-transform-async-to-promises@0.8.10
+857 verbose rebuildBundles babel-plugin-transform-async-to-promises@0.8.10
+858 info install babel-plugin-transform-async-to-promises@0.8.10
+859 info postinstall babel-plugin-transform-async-to-promises@0.8.10
+860 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-transform-react-remove-prop-types
+861 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-plugin-transform-react-remove-prop-types
+862 info preinstall babel-plugin-transform-react-remove-prop-types@0.4.24
+863 verbose linkStuff [ false,
+863 verbose linkStuff   false,
+863 verbose linkStuff   false,
+863 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+864 info linkStuff babel-plugin-transform-react-remove-prop-types@0.4.24
+865 verbose linkBins babel-plugin-transform-react-remove-prop-types@0.4.24
+866 verbose linkMans babel-plugin-transform-react-remove-prop-types@0.4.24
+867 verbose rebuildBundles babel-plugin-transform-react-remove-prop-types@0.4.24
+868 info install babel-plugin-transform-react-remove-prop-types@0.4.24
+869 info postinstall babel-plugin-transform-react-remove-prop-types@0.4.24
+870 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-runtime
+871 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-runtime
+872 info preinstall babel-runtime@6.26.0
+873 verbose linkStuff [ false,
+873 verbose linkStuff   false,
+873 verbose linkStuff   false,
+873 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+874 info linkStuff babel-runtime@6.26.0
+875 verbose linkBins babel-runtime@6.26.0
+876 verbose linkMans babel-runtime@6.26.0
+877 verbose rebuildBundles babel-runtime@6.26.0
+878 verbose rebuildBundles [ 'regenerator-runtime' ]
+879 info install babel-runtime@6.26.0
+880 info postinstall babel-runtime@6.26.0
+881 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/babel-types
+882 info build /Users/crocslut/Desktop/Git/zpc/node_modules/babel-types
+883 info preinstall babel-types@6.26.0
+884 verbose linkStuff [ false,
+884 verbose linkStuff   false,
+884 verbose linkStuff   false,
+884 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+885 info linkStuff babel-types@6.26.0
+886 verbose linkBins babel-types@6.26.0
+887 verbose linkMans babel-types@6.26.0
+888 verbose rebuildBundles babel-types@6.26.0
+889 verbose rebuildBundles [ 'to-fast-properties' ]
+890 info install babel-types@6.26.0
+891 info postinstall babel-types@6.26.0
+892 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/balanced-match
+893 info build /Users/crocslut/Desktop/Git/zpc/node_modules/balanced-match
+894 info preinstall balanced-match@1.0.0
+895 verbose linkStuff [ false,
+895 verbose linkStuff   false,
+895 verbose linkStuff   false,
+895 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+896 info linkStuff balanced-match@1.0.0
+897 verbose linkBins balanced-match@1.0.0
+898 verbose linkMans balanced-match@1.0.0
+899 verbose rebuildBundles balanced-match@1.0.0
+900 info install balanced-match@1.0.0
+901 info postinstall balanced-match@1.0.0
+902 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base
+903 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base
+904 info preinstall base@0.11.2
+905 verbose linkStuff [ false,
+905 verbose linkStuff   false,
+905 verbose linkStuff   false,
+905 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+906 info linkStuff base@0.11.2
+907 verbose linkBins base@0.11.2
+908 verbose linkMans base@0.11.2
+909 verbose rebuildBundles base@0.11.2
+910 verbose rebuildBundles [ 'define-property',
+910 verbose rebuildBundles   'is-accessor-descriptor',
+910 verbose rebuildBundles   'is-data-descriptor',
+910 verbose rebuildBundles   'is-descriptor',
+910 verbose rebuildBundles   'kind-of' ]
+911 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-accessor-descriptor
+912 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-accessor-descriptor
+913 info preinstall is-accessor-descriptor@1.0.0
+914 verbose linkStuff [ false,
+914 verbose linkStuff   false,
+914 verbose linkStuff   false,
+914 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules' ]
+915 info linkStuff is-accessor-descriptor@1.0.0
+916 verbose linkBins is-accessor-descriptor@1.0.0
+917 verbose linkMans is-accessor-descriptor@1.0.0
+918 verbose rebuildBundles is-accessor-descriptor@1.0.0
+919 info install is-accessor-descriptor@1.0.0
+920 info postinstall is-accessor-descriptor@1.0.0
+921 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-data-descriptor
+922 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-data-descriptor
+923 info preinstall is-data-descriptor@1.0.0
+924 verbose linkStuff [ false,
+924 verbose linkStuff   false,
+924 verbose linkStuff   false,
+924 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules' ]
+925 info linkStuff is-data-descriptor@1.0.0
+926 verbose linkBins is-data-descriptor@1.0.0
+927 verbose linkMans is-data-descriptor@1.0.0
+928 verbose rebuildBundles is-data-descriptor@1.0.0
+929 info install is-data-descriptor@1.0.0
+930 info postinstall is-data-descriptor@1.0.0
+931 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-descriptor
+932 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/is-descriptor
+933 info preinstall is-descriptor@1.0.2
+934 verbose linkStuff [ false,
+934 verbose linkStuff   false,
+934 verbose linkStuff   false,
+934 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules' ]
+935 info linkStuff is-descriptor@1.0.2
+936 verbose linkBins is-descriptor@1.0.2
+937 verbose linkMans is-descriptor@1.0.2
+938 verbose rebuildBundles is-descriptor@1.0.2
+939 info install is-descriptor@1.0.2
+940 info postinstall is-descriptor@1.0.2
+941 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/kind-of
+942 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules/kind-of
+943 info preinstall kind-of@6.0.2
+944 verbose linkStuff [ false,
+944 verbose linkStuff   false,
+944 verbose linkStuff   false,
+944 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/base/node_modules' ]
+945 info linkStuff kind-of@6.0.2
+946 verbose linkBins kind-of@6.0.2
+947 verbose linkMans kind-of@6.0.2
+948 verbose rebuildBundles kind-of@6.0.2
+949 info install kind-of@6.0.2
+950 info postinstall kind-of@6.0.2
+951 info install base@0.11.2
+952 info postinstall base@0.11.2
+953 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/base64-js
+954 info build /Users/crocslut/Desktop/Git/zpc/node_modules/base64-js
+955 info preinstall base64-js@1.3.0
+956 verbose linkStuff [ false,
+956 verbose linkStuff   false,
+956 verbose linkStuff   false,
+956 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+957 info linkStuff base64-js@1.3.0
+958 verbose linkBins base64-js@1.3.0
+959 verbose linkMans base64-js@1.3.0
+960 verbose rebuildBundles base64-js@1.3.0
+961 info install base64-js@1.3.0
+962 info postinstall base64-js@1.3.0
+963 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/bcrypt-pbkdf
+964 info build /Users/crocslut/Desktop/Git/zpc/node_modules/bcrypt-pbkdf
+965 info preinstall bcrypt-pbkdf@1.0.2
+966 verbose linkStuff [ false,
+966 verbose linkStuff   false,
+966 verbose linkStuff   false,
+966 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+967 info linkStuff bcrypt-pbkdf@1.0.2
+968 verbose linkBins bcrypt-pbkdf@1.0.2
+969 verbose linkMans bcrypt-pbkdf@1.0.2
+970 verbose rebuildBundles bcrypt-pbkdf@1.0.2
+971 info install bcrypt-pbkdf@1.0.2
+972 info postinstall bcrypt-pbkdf@1.0.2
+973 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/big.js
+974 info build /Users/crocslut/Desktop/Git/zpc/node_modules/big.js
+975 info preinstall big.js@5.2.2
+976 verbose linkStuff [ false,
+976 verbose linkStuff   false,
+976 verbose linkStuff   false,
+976 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+977 info linkStuff big.js@5.2.2
+978 verbose linkBins big.js@5.2.2
+979 verbose linkMans big.js@5.2.2
+980 verbose rebuildBundles big.js@5.2.2
+981 info install big.js@5.2.2
+982 info postinstall big.js@5.2.2
+983 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/binary-extensions
+984 info build /Users/crocslut/Desktop/Git/zpc/node_modules/binary-extensions
+985 info preinstall binary-extensions@1.13.1
+986 verbose linkStuff [ false,
+986 verbose linkStuff   false,
+986 verbose linkStuff   false,
+986 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+987 info linkStuff binary-extensions@1.13.1
+988 verbose linkBins binary-extensions@1.13.1
+989 verbose linkMans binary-extensions@1.13.1
+990 verbose rebuildBundles binary-extensions@1.13.1
+991 info install binary-extensions@1.13.1
+992 info postinstall binary-extensions@1.13.1
+993 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/block-stream
+994 info build /Users/crocslut/Desktop/Git/zpc/node_modules/block-stream
+995 info preinstall block-stream@0.0.9
+996 verbose linkStuff [ false,
+996 verbose linkStuff   false,
+996 verbose linkStuff   false,
+996 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+997 info linkStuff block-stream@0.0.9
+998 verbose linkBins block-stream@0.0.9
+999 verbose linkMans block-stream@0.0.9
+1000 verbose rebuildBundles block-stream@0.0.9
+1001 info install block-stream@0.0.9
+1002 info postinstall block-stream@0.0.9
+1003 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/bluebird
+1004 info build /Users/crocslut/Desktop/Git/zpc/node_modules/bluebird
+1005 info preinstall bluebird@3.5.5
+1006 verbose linkStuff [ false,
+1006 verbose linkStuff   false,
+1006 verbose linkStuff   false,
+1006 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1007 info linkStuff bluebird@3.5.5
+1008 verbose linkBins bluebird@3.5.5
+1009 verbose linkMans bluebird@3.5.5
+1010 verbose rebuildBundles bluebird@3.5.5
+1011 info install bluebird@3.5.5
+1012 info postinstall bluebird@3.5.5
+1013 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/bn.js
+1014 info build /Users/crocslut/Desktop/Git/zpc/node_modules/bn.js
+1015 info preinstall bn.js@4.11.8
+1016 verbose linkStuff [ false,
+1016 verbose linkStuff   false,
+1016 verbose linkStuff   false,
+1016 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1017 info linkStuff bn.js@4.11.8
+1018 verbose linkBins bn.js@4.11.8
+1019 verbose linkMans bn.js@4.11.8
+1020 verbose rebuildBundles bn.js@4.11.8
+1021 info install bn.js@4.11.8
+1022 info postinstall bn.js@4.11.8
+1023 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/body-parser
+1024 info build /Users/crocslut/Desktop/Git/zpc/node_modules/body-parser
+1025 info preinstall body-parser@1.19.0
+1026 verbose linkStuff [ false,
+1026 verbose linkStuff   false,
+1026 verbose linkStuff   false,
+1026 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1027 info linkStuff body-parser@1.19.0
+1028 verbose linkBins body-parser@1.19.0
+1029 verbose linkMans body-parser@1.19.0
+1030 verbose rebuildBundles body-parser@1.19.0
+1031 verbose rebuildBundles [ 'bytes', 'iconv-lite' ]
+1032 info install body-parser@1.19.0
+1033 info postinstall body-parser@1.19.0
+1034 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/bootstrap-sass
+1035 info build /Users/crocslut/Desktop/Git/zpc/node_modules/bootstrap-sass
+1036 info preinstall bootstrap-sass@3.4.1
+1037 verbose linkStuff [ false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1038 info linkStuff bootstrap-sass@3.4.1
+1039 verbose linkBins bootstrap-sass@3.4.1
+1040 verbose linkMans bootstrap-sass@3.4.1
+1041 verbose rebuildBundles bootstrap-sass@3.4.1
+1042 info install bootstrap-sass@3.4.1
+1043 info postinstall bootstrap-sass@3.4.1
+1044 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/brace-expansion
+1045 info build /Users/crocslut/Desktop/Git/zpc/node_modules/brace-expansion
+1046 info preinstall brace-expansion@1.1.11
+1047 verbose linkStuff [ false,
+1047 verbose linkStuff   false,
+1047 verbose linkStuff   false,
+1047 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1048 info linkStuff brace-expansion@1.1.11
+1049 verbose linkBins brace-expansion@1.1.11
+1050 verbose linkMans brace-expansion@1.1.11
+1051 verbose rebuildBundles brace-expansion@1.1.11
+1052 info install brace-expansion@1.1.11
+1053 info postinstall brace-expansion@1.1.11
+1054 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/braces
+1055 info build /Users/crocslut/Desktop/Git/zpc/node_modules/braces
+1056 info preinstall braces@2.3.2
+1057 verbose linkStuff [ false,
+1057 verbose linkStuff   false,
+1057 verbose linkStuff   false,
+1057 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1058 info linkStuff braces@2.3.2
+1059 verbose linkBins braces@2.3.2
+1060 verbose linkMans braces@2.3.2
+1061 verbose rebuildBundles braces@2.3.2
+1062 verbose rebuildBundles [ 'extend-shallow' ]
+1063 info install braces@2.3.2
+1064 info postinstall braces@2.3.2
+1065 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/brorand
+1066 info build /Users/crocslut/Desktop/Git/zpc/node_modules/brorand
+1067 info preinstall brorand@1.1.0
+1068 verbose linkStuff [ false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1069 info linkStuff brorand@1.1.0
+1070 verbose linkBins brorand@1.1.0
+1071 verbose linkMans brorand@1.1.0
+1072 verbose rebuildBundles brorand@1.1.0
+1073 info install brorand@1.1.0
+1074 info postinstall brorand@1.1.0
+1075 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-aes
+1076 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-aes
+1077 info preinstall browserify-aes@1.2.0
+1078 verbose linkStuff [ false,
+1078 verbose linkStuff   false,
+1078 verbose linkStuff   false,
+1078 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1079 info linkStuff browserify-aes@1.2.0
+1080 verbose linkBins browserify-aes@1.2.0
+1081 verbose linkMans browserify-aes@1.2.0
+1082 verbose rebuildBundles browserify-aes@1.2.0
+1083 info install browserify-aes@1.2.0
+1084 info postinstall browserify-aes@1.2.0
+1085 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-cipher
+1086 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-cipher
+1087 info preinstall browserify-cipher@1.0.1
+1088 verbose linkStuff [ false,
+1088 verbose linkStuff   false,
+1088 verbose linkStuff   false,
+1088 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1089 info linkStuff browserify-cipher@1.0.1
+1090 verbose linkBins browserify-cipher@1.0.1
+1091 verbose linkMans browserify-cipher@1.0.1
+1092 verbose rebuildBundles browserify-cipher@1.0.1
+1093 info install browserify-cipher@1.0.1
+1094 info postinstall browserify-cipher@1.0.1
+1095 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-des
+1096 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-des
+1097 info preinstall browserify-des@1.0.2
+1098 verbose linkStuff [ false,
+1098 verbose linkStuff   false,
+1098 verbose linkStuff   false,
+1098 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1099 info linkStuff browserify-des@1.0.2
+1100 verbose linkBins browserify-des@1.0.2
+1101 verbose linkMans browserify-des@1.0.2
+1102 verbose rebuildBundles browserify-des@1.0.2
+1103 info install browserify-des@1.0.2
+1104 info postinstall browserify-des@1.0.2
+1105 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-rsa
+1106 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-rsa
+1107 info preinstall browserify-rsa@4.0.1
+1108 verbose linkStuff [ false,
+1108 verbose linkStuff   false,
+1108 verbose linkStuff   false,
+1108 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1109 info linkStuff browserify-rsa@4.0.1
+1110 verbose linkBins browserify-rsa@4.0.1
+1111 verbose linkMans browserify-rsa@4.0.1
+1112 verbose rebuildBundles browserify-rsa@4.0.1
+1113 info install browserify-rsa@4.0.1
+1114 info postinstall browserify-rsa@4.0.1
+1115 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-sign
+1116 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-sign
+1117 info preinstall browserify-sign@4.0.4
+1118 verbose linkStuff [ false,
+1118 verbose linkStuff   false,
+1118 verbose linkStuff   false,
+1118 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1119 info linkStuff browserify-sign@4.0.4
+1120 verbose linkBins browserify-sign@4.0.4
+1121 verbose linkMans browserify-sign@4.0.4
+1122 verbose rebuildBundles browserify-sign@4.0.4
+1123 info install browserify-sign@4.0.4
+1124 info postinstall browserify-sign@4.0.4
+1125 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-zlib
+1126 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserify-zlib
+1127 info preinstall browserify-zlib@0.2.0
+1128 verbose linkStuff [ false,
+1128 verbose linkStuff   false,
+1128 verbose linkStuff   false,
+1128 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1129 info linkStuff browserify-zlib@0.2.0
+1130 verbose linkBins browserify-zlib@0.2.0
+1131 verbose linkMans browserify-zlib@0.2.0
+1132 verbose rebuildBundles browserify-zlib@0.2.0
+1133 info install browserify-zlib@0.2.0
+1134 info postinstall browserify-zlib@0.2.0
+1135 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/browserslist
+1136 info build /Users/crocslut/Desktop/Git/zpc/node_modules/browserslist
+1137 info preinstall browserslist@4.6.6
+1138 verbose linkStuff [ false,
+1138 verbose linkStuff   false,
+1138 verbose linkStuff   false,
+1138 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1139 info linkStuff browserslist@4.6.6
+1140 verbose linkBins browserslist@4.6.6
+1141 verbose link bins [ { browserslist: './cli.js' },
+1141 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+1141 verbose link bins   false ]
+1142 verbose linkMans browserslist@4.6.6
+1143 verbose rebuildBundles browserslist@4.6.6
+1144 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/browserslist is being purged
+1145 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/browserslist
+1146 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/browserslist
+1147 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+1148 info install browserslist@4.6.6
+1149 info postinstall browserslist@4.6.6
+1150 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/buffer
+1151 info build /Users/crocslut/Desktop/Git/zpc/node_modules/buffer
+1152 info preinstall buffer@4.9.1
+1153 verbose linkStuff [ false,
+1153 verbose linkStuff   false,
+1153 verbose linkStuff   false,
+1153 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1154 info linkStuff buffer@4.9.1
+1155 verbose linkBins buffer@4.9.1
+1156 verbose linkMans buffer@4.9.1
+1157 verbose rebuildBundles buffer@4.9.1
+1158 info install buffer@4.9.1
+1159 info postinstall buffer@4.9.1
+1160 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/buffer-from
+1161 info build /Users/crocslut/Desktop/Git/zpc/node_modules/buffer-from
+1162 info preinstall buffer-from@1.1.1
+1163 verbose linkStuff [ false,
+1163 verbose linkStuff   false,
+1163 verbose linkStuff   false,
+1163 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1164 info linkStuff buffer-from@1.1.1
+1165 verbose linkBins buffer-from@1.1.1
+1166 verbose linkMans buffer-from@1.1.1
+1167 verbose rebuildBundles buffer-from@1.1.1
+1168 info install buffer-from@1.1.1
+1169 info postinstall buffer-from@1.1.1
+1170 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/buffer-xor
+1171 info build /Users/crocslut/Desktop/Git/zpc/node_modules/buffer-xor
+1172 info preinstall buffer-xor@1.0.3
+1173 verbose linkStuff [ false,
+1173 verbose linkStuff   false,
+1173 verbose linkStuff   false,
+1173 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1174 info linkStuff buffer-xor@1.0.3
+1175 verbose linkBins buffer-xor@1.0.3
+1176 verbose linkMans buffer-xor@1.0.3
+1177 verbose rebuildBundles buffer-xor@1.0.3
+1178 info install buffer-xor@1.0.3
+1179 info postinstall buffer-xor@1.0.3
+1180 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/builtin-status-codes
+1181 info build /Users/crocslut/Desktop/Git/zpc/node_modules/builtin-status-codes
+1182 info preinstall builtin-status-codes@3.0.0
+1183 verbose linkStuff [ false,
+1183 verbose linkStuff   false,
+1183 verbose linkStuff   false,
+1183 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1184 info linkStuff builtin-status-codes@3.0.0
+1185 verbose linkBins builtin-status-codes@3.0.0
+1186 verbose linkMans builtin-status-codes@3.0.0
+1187 verbose rebuildBundles builtin-status-codes@3.0.0
+1188 info install builtin-status-codes@3.0.0
+1189 info postinstall builtin-status-codes@3.0.0
+1190 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/bytes
+1191 info build /Users/crocslut/Desktop/Git/zpc/node_modules/bytes
+1192 info preinstall bytes@3.0.0
+1193 verbose linkStuff [ false,
+1193 verbose linkStuff   false,
+1193 verbose linkStuff   false,
+1193 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1194 info linkStuff bytes@3.0.0
+1195 verbose linkBins bytes@3.0.0
+1196 verbose linkMans bytes@3.0.0
+1197 verbose rebuildBundles bytes@3.0.0
+1198 info install bytes@3.0.0
+1199 info postinstall bytes@3.0.0
+1200 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cacache
+1201 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cacache
+1202 info preinstall cacache@11.3.3
+1203 verbose linkStuff [ false,
+1203 verbose linkStuff   false,
+1203 verbose linkStuff   false,
+1203 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1204 info linkStuff cacache@11.3.3
+1205 verbose linkBins cacache@11.3.3
+1206 verbose linkMans cacache@11.3.3
+1207 verbose rebuildBundles cacache@11.3.3
+1208 info install cacache@11.3.3
+1209 info postinstall cacache@11.3.3
+1210 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cache-base
+1211 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cache-base
+1212 info preinstall cache-base@1.0.1
+1213 verbose linkStuff [ false,
+1213 verbose linkStuff   false,
+1213 verbose linkStuff   false,
+1213 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1214 info linkStuff cache-base@1.0.1
+1215 verbose linkBins cache-base@1.0.1
+1216 verbose linkMans cache-base@1.0.1
+1217 verbose rebuildBundles cache-base@1.0.1
+1218 info install cache-base@1.0.1
+1219 info postinstall cache-base@1.0.1
+1220 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/camelcase
+1221 info build /Users/crocslut/Desktop/Git/zpc/node_modules/camelcase
+1222 info preinstall camelcase@2.1.1
+1223 verbose linkStuff [ false,
+1223 verbose linkStuff   false,
+1223 verbose linkStuff   false,
+1223 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1224 info linkStuff camelcase@2.1.1
+1225 verbose linkBins camelcase@2.1.1
+1226 verbose linkMans camelcase@2.1.1
+1227 verbose rebuildBundles camelcase@2.1.1
+1228 info install camelcase@2.1.1
+1229 info postinstall camelcase@2.1.1
+1230 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/camelcase-keys
+1231 info build /Users/crocslut/Desktop/Git/zpc/node_modules/camelcase-keys
+1232 info preinstall camelcase-keys@2.1.0
+1233 verbose linkStuff [ false,
+1233 verbose linkStuff   false,
+1233 verbose linkStuff   false,
+1233 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1234 info linkStuff camelcase-keys@2.1.0
+1235 verbose linkBins camelcase-keys@2.1.0
+1236 verbose linkMans camelcase-keys@2.1.0
+1237 verbose rebuildBundles camelcase-keys@2.1.0
+1238 info install camelcase-keys@2.1.0
+1239 info postinstall camelcase-keys@2.1.0
+1240 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/caniuse-lite
+1241 info build /Users/crocslut/Desktop/Git/zpc/node_modules/caniuse-lite
+1242 info preinstall caniuse-lite@1.0.30000987
+1243 verbose linkStuff [ false,
+1243 verbose linkStuff   false,
+1243 verbose linkStuff   false,
+1243 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1244 info linkStuff caniuse-lite@1.0.30000987
+1245 verbose linkBins caniuse-lite@1.0.30000987
+1246 verbose linkMans caniuse-lite@1.0.30000987
+1247 verbose rebuildBundles caniuse-lite@1.0.30000987
+1248 info install caniuse-lite@1.0.30000987
+1249 info postinstall caniuse-lite@1.0.30000987
+1250 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/caseless
+1251 info build /Users/crocslut/Desktop/Git/zpc/node_modules/caseless
+1252 info preinstall caseless@0.12.0
+1253 verbose linkStuff [ false,
+1253 verbose linkStuff   false,
+1253 verbose linkStuff   false,
+1253 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1254 info linkStuff caseless@0.12.0
+1255 verbose linkBins caseless@0.12.0
+1256 verbose linkMans caseless@0.12.0
+1257 verbose rebuildBundles caseless@0.12.0
+1258 info install caseless@0.12.0
+1259 info postinstall caseless@0.12.0
+1260 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/chalk
+1261 info build /Users/crocslut/Desktop/Git/zpc/node_modules/chalk
+1262 info preinstall chalk@1.1.3
+1263 verbose linkStuff [ false,
+1263 verbose linkStuff   false,
+1263 verbose linkStuff   false,
+1263 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1264 info linkStuff chalk@1.1.3
+1265 verbose linkBins chalk@1.1.3
+1266 verbose linkMans chalk@1.1.3
+1267 verbose rebuildBundles chalk@1.1.3
+1268 info install chalk@1.1.3
+1269 info postinstall chalk@1.1.3
+1270 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/chardet
+1271 info build /Users/crocslut/Desktop/Git/zpc/node_modules/chardet
+1272 info preinstall chardet@0.7.0
+1273 verbose linkStuff [ false,
+1273 verbose linkStuff   false,
+1273 verbose linkStuff   false,
+1273 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1274 info linkStuff chardet@0.7.0
+1275 verbose linkBins chardet@0.7.0
+1276 verbose linkMans chardet@0.7.0
+1277 verbose rebuildBundles chardet@0.7.0
+1278 info install chardet@0.7.0
+1279 info postinstall chardet@0.7.0
+1280 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/chokidar
+1281 info build /Users/crocslut/Desktop/Git/zpc/node_modules/chokidar
+1282 info preinstall chokidar@2.1.6
+1283 verbose linkStuff [ false,
+1283 verbose linkStuff   false,
+1283 verbose linkStuff   false,
+1283 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1284 info linkStuff chokidar@2.1.6
+1285 verbose linkBins chokidar@2.1.6
+1286 verbose linkMans chokidar@2.1.6
+1287 verbose rebuildBundles chokidar@2.1.6
+1288 info install chokidar@2.1.6
+1289 info postinstall chokidar@2.1.6
+1290 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/chownr
+1291 info build /Users/crocslut/Desktop/Git/zpc/node_modules/chownr
+1292 info preinstall chownr@1.1.2
+1293 verbose linkStuff [ false,
+1293 verbose linkStuff   false,
+1293 verbose linkStuff   false,
+1293 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1294 info linkStuff chownr@1.1.2
+1295 verbose linkBins chownr@1.1.2
+1296 verbose linkMans chownr@1.1.2
+1297 verbose rebuildBundles chownr@1.1.2
+1298 info install chownr@1.1.2
+1299 info postinstall chownr@1.1.2
+1300 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/chrome-trace-event
+1301 info build /Users/crocslut/Desktop/Git/zpc/node_modules/chrome-trace-event
+1302 info preinstall chrome-trace-event@1.0.2
+1303 verbose linkStuff [ false,
+1303 verbose linkStuff   false,
+1303 verbose linkStuff   false,
+1303 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1304 info linkStuff chrome-trace-event@1.0.2
+1305 verbose linkBins chrome-trace-event@1.0.2
+1306 verbose linkMans chrome-trace-event@1.0.2
+1307 verbose rebuildBundles chrome-trace-event@1.0.2
+1308 info install chrome-trace-event@1.0.2
+1309 info postinstall chrome-trace-event@1.0.2
+1310 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cipher-base
+1311 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cipher-base
+1312 info preinstall cipher-base@1.0.4
+1313 verbose linkStuff [ false,
+1313 verbose linkStuff   false,
+1313 verbose linkStuff   false,
+1313 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1314 info linkStuff cipher-base@1.0.4
+1315 verbose linkBins cipher-base@1.0.4
+1316 verbose linkMans cipher-base@1.0.4
+1317 verbose rebuildBundles cipher-base@1.0.4
+1318 info install cipher-base@1.0.4
+1319 info postinstall cipher-base@1.0.4
+1320 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/class-utils
+1321 info build /Users/crocslut/Desktop/Git/zpc/node_modules/class-utils
+1322 info preinstall class-utils@0.3.6
+1323 verbose linkStuff [ false,
+1323 verbose linkStuff   false,
+1323 verbose linkStuff   false,
+1323 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1324 info linkStuff class-utils@0.3.6
+1325 verbose linkBins class-utils@0.3.6
+1326 verbose linkMans class-utils@0.3.6
+1327 verbose rebuildBundles class-utils@0.3.6
+1328 verbose rebuildBundles [ 'define-property' ]
+1329 info install class-utils@0.3.6
+1330 info postinstall class-utils@0.3.6
+1331 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/classnames
+1332 info build /Users/crocslut/Desktop/Git/zpc/node_modules/classnames
+1333 info preinstall classnames@2.2.6
+1334 verbose linkStuff [ false,
+1334 verbose linkStuff   false,
+1334 verbose linkStuff   false,
+1334 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1335 info linkStuff classnames@2.2.6
+1336 verbose linkBins classnames@2.2.6
+1337 verbose linkMans classnames@2.2.6
+1338 verbose rebuildBundles classnames@2.2.6
+1339 info install classnames@2.2.6
+1340 info postinstall classnames@2.2.6
+1341 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cli-cursor
+1342 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cli-cursor
+1343 info preinstall cli-cursor@2.1.0
+1344 verbose linkStuff [ false,
+1344 verbose linkStuff   false,
+1344 verbose linkStuff   false,
+1344 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1345 info linkStuff cli-cursor@2.1.0
+1346 verbose linkBins cli-cursor@2.1.0
+1347 verbose linkMans cli-cursor@2.1.0
+1348 verbose rebuildBundles cli-cursor@2.1.0
+1349 info install cli-cursor@2.1.0
+1350 info postinstall cli-cursor@2.1.0
+1351 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cli-width
+1352 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cli-width
+1353 info preinstall cli-width@2.2.0
+1354 verbose linkStuff [ false,
+1354 verbose linkStuff   false,
+1354 verbose linkStuff   false,
+1354 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1355 info linkStuff cli-width@2.2.0
+1356 verbose linkBins cli-width@2.2.0
+1357 verbose linkMans cli-width@2.2.0
+1358 verbose rebuildBundles cli-width@2.2.0
+1359 info install cli-width@2.2.0
+1360 info postinstall cli-width@2.2.0
+1361 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cliui
+1362 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cliui
+1363 info preinstall cliui@3.2.0
+1364 verbose linkStuff [ false,
+1364 verbose linkStuff   false,
+1364 verbose linkStuff   false,
+1364 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1365 info linkStuff cliui@3.2.0
+1366 verbose linkBins cliui@3.2.0
+1367 verbose linkMans cliui@3.2.0
+1368 verbose rebuildBundles cliui@3.2.0
+1369 info install cliui@3.2.0
+1370 info postinstall cliui@3.2.0
+1371 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/clone
+1372 info build /Users/crocslut/Desktop/Git/zpc/node_modules/clone
+1373 info preinstall clone@2.1.2
+1374 verbose linkStuff [ false,
+1374 verbose linkStuff   false,
+1374 verbose linkStuff   false,
+1374 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1375 info linkStuff clone@2.1.2
+1376 verbose linkBins clone@2.1.2
+1377 verbose linkMans clone@2.1.2
+1378 verbose rebuildBundles clone@2.1.2
+1379 info install clone@2.1.2
+1380 info postinstall clone@2.1.2
+1381 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/clone-deep
+1382 info build /Users/crocslut/Desktop/Git/zpc/node_modules/clone-deep
+1383 info preinstall clone-deep@0.3.0
+1384 verbose linkStuff [ false,
+1384 verbose linkStuff   false,
+1384 verbose linkStuff   false,
+1384 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1385 info linkStuff clone-deep@0.3.0
+1386 verbose linkBins clone-deep@0.3.0
+1387 verbose linkMans clone-deep@0.3.0
+1388 verbose rebuildBundles clone-deep@0.3.0
+1389 info install clone-deep@0.3.0
+1390 info postinstall clone-deep@0.3.0
+1391 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/clsx
+1392 info build /Users/crocslut/Desktop/Git/zpc/node_modules/clsx
+1393 info preinstall clsx@1.0.4
+1394 verbose linkStuff [ false,
+1394 verbose linkStuff   false,
+1394 verbose linkStuff   false,
+1394 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1395 info linkStuff clsx@1.0.4
+1396 verbose linkBins clsx@1.0.4
+1397 verbose linkMans clsx@1.0.4
+1398 verbose rebuildBundles clsx@1.0.4
+1399 info install clsx@1.0.4
+1400 info postinstall clsx@1.0.4
+1401 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/code-point-at
+1402 info build /Users/crocslut/Desktop/Git/zpc/node_modules/code-point-at
+1403 info preinstall code-point-at@1.1.0
+1404 verbose linkStuff [ false,
+1404 verbose linkStuff   false,
+1404 verbose linkStuff   false,
+1404 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1405 info linkStuff code-point-at@1.1.0
+1406 verbose linkBins code-point-at@1.1.0
+1407 verbose linkMans code-point-at@1.1.0
+1408 verbose rebuildBundles code-point-at@1.1.0
+1409 info install code-point-at@1.1.0
+1410 info postinstall code-point-at@1.1.0
+1411 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/collection-visit
+1412 info build /Users/crocslut/Desktop/Git/zpc/node_modules/collection-visit
+1413 info preinstall collection-visit@1.0.0
+1414 verbose linkStuff [ false,
+1414 verbose linkStuff   false,
+1414 verbose linkStuff   false,
+1414 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1415 info linkStuff collection-visit@1.0.0
+1416 verbose linkBins collection-visit@1.0.0
+1417 verbose linkMans collection-visit@1.0.0
+1418 verbose rebuildBundles collection-visit@1.0.0
+1419 info install collection-visit@1.0.0
+1420 info postinstall collection-visit@1.0.0
+1421 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/color-convert
+1422 info build /Users/crocslut/Desktop/Git/zpc/node_modules/color-convert
+1423 info preinstall color-convert@1.9.3
+1424 verbose linkStuff [ false,
+1424 verbose linkStuff   false,
+1424 verbose linkStuff   false,
+1424 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1425 info linkStuff color-convert@1.9.3
+1426 verbose linkBins color-convert@1.9.3
+1427 verbose linkMans color-convert@1.9.3
+1428 verbose rebuildBundles color-convert@1.9.3
+1429 info install color-convert@1.9.3
+1430 info postinstall color-convert@1.9.3
+1431 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/color-name
+1432 info build /Users/crocslut/Desktop/Git/zpc/node_modules/color-name
+1433 info preinstall color-name@1.1.3
+1434 verbose linkStuff [ false,
+1434 verbose linkStuff   false,
+1434 verbose linkStuff   false,
+1434 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1435 info linkStuff color-name@1.1.3
+1436 verbose linkBins color-name@1.1.3
+1437 verbose linkMans color-name@1.1.3
+1438 verbose rebuildBundles color-name@1.1.3
+1439 info install color-name@1.1.3
+1440 info postinstall color-name@1.1.3
+1441 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/colors
+1442 info build /Users/crocslut/Desktop/Git/zpc/node_modules/colors
+1443 info preinstall colors@1.1.2
+1444 verbose linkStuff [ false,
+1444 verbose linkStuff   false,
+1444 verbose linkStuff   false,
+1444 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1445 info linkStuff colors@1.1.2
+1446 verbose linkBins colors@1.1.2
+1447 verbose linkMans colors@1.1.2
+1448 verbose rebuildBundles colors@1.1.2
+1449 info install colors@1.1.2
+1450 info postinstall colors@1.1.2
+1451 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/combined-stream
+1452 info build /Users/crocslut/Desktop/Git/zpc/node_modules/combined-stream
+1453 info preinstall combined-stream@1.0.8
+1454 verbose linkStuff [ false,
+1454 verbose linkStuff   false,
+1454 verbose linkStuff   false,
+1454 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1455 info linkStuff combined-stream@1.0.8
+1456 verbose linkBins combined-stream@1.0.8
+1457 verbose linkMans combined-stream@1.0.8
+1458 verbose rebuildBundles combined-stream@1.0.8
+1459 info install combined-stream@1.0.8
+1460 info postinstall combined-stream@1.0.8
+1461 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/commander
+1462 info build /Users/crocslut/Desktop/Git/zpc/node_modules/commander
+1463 info preinstall commander@2.9.0
+1464 verbose linkStuff [ false,
+1464 verbose linkStuff   false,
+1464 verbose linkStuff   false,
+1464 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1465 info linkStuff commander@2.9.0
+1466 verbose linkBins commander@2.9.0
+1467 verbose linkMans commander@2.9.0
+1468 verbose rebuildBundles commander@2.9.0
+1469 info install commander@2.9.0
+1470 info postinstall commander@2.9.0
+1471 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/commondir
+1472 info build /Users/crocslut/Desktop/Git/zpc/node_modules/commondir
+1473 info preinstall commondir@1.0.1
+1474 verbose linkStuff [ false,
+1474 verbose linkStuff   false,
+1474 verbose linkStuff   false,
+1474 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1475 info linkStuff commondir@1.0.1
+1476 verbose linkBins commondir@1.0.1
+1477 verbose linkMans commondir@1.0.1
+1478 verbose rebuildBundles commondir@1.0.1
+1479 info install commondir@1.0.1
+1480 info postinstall commondir@1.0.1
+1481 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/component-classes
+1482 info build /Users/crocslut/Desktop/Git/zpc/node_modules/component-classes
+1483 info preinstall component-classes@1.2.6
+1484 verbose linkStuff [ false,
+1484 verbose linkStuff   false,
+1484 verbose linkStuff   false,
+1484 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1485 info linkStuff component-classes@1.2.6
+1486 verbose linkBins component-classes@1.2.6
+1487 verbose linkMans component-classes@1.2.6
+1488 verbose rebuildBundles component-classes@1.2.6
+1489 info install component-classes@1.2.6
+1490 info postinstall component-classes@1.2.6
+1491 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/component-emitter
+1492 info build /Users/crocslut/Desktop/Git/zpc/node_modules/component-emitter
+1493 info preinstall component-emitter@1.3.0
+1494 verbose linkStuff [ false,
+1494 verbose linkStuff   false,
+1494 verbose linkStuff   false,
+1494 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1495 info linkStuff component-emitter@1.3.0
+1496 verbose linkBins component-emitter@1.3.0
+1497 verbose linkMans component-emitter@1.3.0
+1498 verbose rebuildBundles component-emitter@1.3.0
+1499 info install component-emitter@1.3.0
+1500 info postinstall component-emitter@1.3.0
+1501 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/component-indexof
+1502 info build /Users/crocslut/Desktop/Git/zpc/node_modules/component-indexof
+1503 info preinstall component-indexof@0.0.3
+1504 verbose linkStuff [ false,
+1504 verbose linkStuff   false,
+1504 verbose linkStuff   false,
+1504 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1505 info linkStuff component-indexof@0.0.3
+1506 verbose linkBins component-indexof@0.0.3
+1507 verbose linkMans component-indexof@0.0.3
+1508 verbose rebuildBundles component-indexof@0.0.3
+1509 info install component-indexof@0.0.3
+1510 info postinstall component-indexof@0.0.3
+1511 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/compressible
+1512 info build /Users/crocslut/Desktop/Git/zpc/node_modules/compressible
+1513 info preinstall compressible@2.0.17
+1514 verbose linkStuff [ false,
+1514 verbose linkStuff   false,
+1514 verbose linkStuff   false,
+1514 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1515 info linkStuff compressible@2.0.17
+1516 verbose linkBins compressible@2.0.17
+1517 verbose linkMans compressible@2.0.17
+1518 verbose rebuildBundles compressible@2.0.17
+1519 info install compressible@2.0.17
+1520 info postinstall compressible@2.0.17
+1521 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/compute-scroll-into-view
+1522 info build /Users/crocslut/Desktop/Git/zpc/node_modules/compute-scroll-into-view
+1523 info preinstall compute-scroll-into-view@1.0.11
+1524 verbose linkStuff [ false,
+1524 verbose linkStuff   false,
+1524 verbose linkStuff   false,
+1524 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1525 info linkStuff compute-scroll-into-view@1.0.11
+1526 verbose linkBins compute-scroll-into-view@1.0.11
+1527 verbose linkMans compute-scroll-into-view@1.0.11
+1528 verbose rebuildBundles compute-scroll-into-view@1.0.11
+1529 info install compute-scroll-into-view@1.0.11
+1530 info postinstall compute-scroll-into-view@1.0.11
+1531 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/concat-map
+1532 info build /Users/crocslut/Desktop/Git/zpc/node_modules/concat-map
+1533 info preinstall concat-map@0.0.1
+1534 verbose linkStuff [ false,
+1534 verbose linkStuff   false,
+1534 verbose linkStuff   false,
+1534 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1535 info linkStuff concat-map@0.0.1
+1536 verbose linkBins concat-map@0.0.1
+1537 verbose linkMans concat-map@0.0.1
+1538 verbose rebuildBundles concat-map@0.0.1
+1539 info install concat-map@0.0.1
+1540 info postinstall concat-map@0.0.1
+1541 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/concat-stream
+1542 info build /Users/crocslut/Desktop/Git/zpc/node_modules/concat-stream
+1543 info preinstall concat-stream@1.6.2
+1544 verbose linkStuff [ false,
+1544 verbose linkStuff   false,
+1544 verbose linkStuff   false,
+1544 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1545 info linkStuff concat-stream@1.6.2
+1546 verbose linkBins concat-stream@1.6.2
+1547 verbose linkMans concat-stream@1.6.2
+1548 verbose rebuildBundles concat-stream@1.6.2
+1549 info install concat-stream@1.6.2
+1550 info postinstall concat-stream@1.6.2
+1551 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/confusing-browser-globals
+1552 info build /Users/crocslut/Desktop/Git/zpc/node_modules/confusing-browser-globals
+1553 info preinstall confusing-browser-globals@1.0.7
+1554 verbose linkStuff [ false,
+1554 verbose linkStuff   false,
+1554 verbose linkStuff   false,
+1554 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1555 info linkStuff confusing-browser-globals@1.0.7
+1556 verbose linkBins confusing-browser-globals@1.0.7
+1557 verbose linkMans confusing-browser-globals@1.0.7
+1558 verbose rebuildBundles confusing-browser-globals@1.0.7
+1559 info install confusing-browser-globals@1.0.7
+1560 info postinstall confusing-browser-globals@1.0.7
+1561 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/console-browserify
+1562 info build /Users/crocslut/Desktop/Git/zpc/node_modules/console-browserify
+1563 info preinstall console-browserify@1.1.0
+1564 verbose linkStuff [ false,
+1564 verbose linkStuff   false,
+1564 verbose linkStuff   false,
+1564 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1565 info linkStuff console-browserify@1.1.0
+1566 verbose linkBins console-browserify@1.1.0
+1567 verbose linkMans console-browserify@1.1.0
+1568 verbose rebuildBundles console-browserify@1.1.0
+1569 info install console-browserify@1.1.0
+1570 info postinstall console-browserify@1.1.0
+1571 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/console-control-strings
+1572 info build /Users/crocslut/Desktop/Git/zpc/node_modules/console-control-strings
+1573 info preinstall console-control-strings@1.1.0
+1574 verbose linkStuff [ false,
+1574 verbose linkStuff   false,
+1574 verbose linkStuff   false,
+1574 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1575 info linkStuff console-control-strings@1.1.0
+1576 verbose linkBins console-control-strings@1.1.0
+1577 verbose linkMans console-control-strings@1.1.0
+1578 verbose rebuildBundles console-control-strings@1.1.0
+1579 info install console-control-strings@1.1.0
+1580 info postinstall console-control-strings@1.1.0
+1581 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/constants-browserify
+1582 info build /Users/crocslut/Desktop/Git/zpc/node_modules/constants-browserify
+1583 info preinstall constants-browserify@1.0.0
+1584 verbose linkStuff [ false,
+1584 verbose linkStuff   false,
+1584 verbose linkStuff   false,
+1584 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1585 info linkStuff constants-browserify@1.0.0
+1586 verbose linkBins constants-browserify@1.0.0
+1587 verbose linkMans constants-browserify@1.0.0
+1588 verbose rebuildBundles constants-browserify@1.0.0
+1589 info install constants-browserify@1.0.0
+1590 info postinstall constants-browserify@1.0.0
+1591 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/contains-path
+1592 info build /Users/crocslut/Desktop/Git/zpc/node_modules/contains-path
+1593 info preinstall contains-path@0.1.0
+1594 verbose linkStuff [ false,
+1594 verbose linkStuff   false,
+1594 verbose linkStuff   false,
+1594 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1595 info linkStuff contains-path@0.1.0
+1596 verbose linkBins contains-path@0.1.0
+1597 verbose linkMans contains-path@0.1.0
+1598 verbose rebuildBundles contains-path@0.1.0
+1599 info install contains-path@0.1.0
+1600 info postinstall contains-path@0.1.0
+1601 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/content-disposition
+1602 info build /Users/crocslut/Desktop/Git/zpc/node_modules/content-disposition
+1603 info preinstall content-disposition@0.5.3
+1604 verbose linkStuff [ false,
+1604 verbose linkStuff   false,
+1604 verbose linkStuff   false,
+1604 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1605 info linkStuff content-disposition@0.5.3
+1606 verbose linkBins content-disposition@0.5.3
+1607 verbose linkMans content-disposition@0.5.3
+1608 verbose rebuildBundles content-disposition@0.5.3
+1609 info install content-disposition@0.5.3
+1610 info postinstall content-disposition@0.5.3
+1611 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/content-type
+1612 info build /Users/crocslut/Desktop/Git/zpc/node_modules/content-type
+1613 info preinstall content-type@1.0.4
+1614 verbose linkStuff [ false,
+1614 verbose linkStuff   false,
+1614 verbose linkStuff   false,
+1614 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1615 info linkStuff content-type@1.0.4
+1616 verbose linkBins content-type@1.0.4
+1617 verbose linkMans content-type@1.0.4
+1618 verbose rebuildBundles content-type@1.0.4
+1619 info install content-type@1.0.4
+1620 info postinstall content-type@1.0.4
+1621 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/convert-source-map
+1622 info build /Users/crocslut/Desktop/Git/zpc/node_modules/convert-source-map
+1623 info preinstall convert-source-map@1.6.0
+1624 verbose linkStuff [ false,
+1624 verbose linkStuff   false,
+1624 verbose linkStuff   false,
+1624 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1625 info linkStuff convert-source-map@1.6.0
+1626 verbose linkBins convert-source-map@1.6.0
+1627 verbose linkMans convert-source-map@1.6.0
+1628 verbose rebuildBundles convert-source-map@1.6.0
+1629 info install convert-source-map@1.6.0
+1630 info postinstall convert-source-map@1.6.0
+1631 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cookie
+1632 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cookie
+1633 info preinstall cookie@0.4.0
+1634 verbose linkStuff [ false,
+1634 verbose linkStuff   false,
+1634 verbose linkStuff   false,
+1634 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1635 info linkStuff cookie@0.4.0
+1636 verbose linkBins cookie@0.4.0
+1637 verbose linkMans cookie@0.4.0
+1638 verbose rebuildBundles cookie@0.4.0
+1639 info install cookie@0.4.0
+1640 info postinstall cookie@0.4.0
+1641 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cookie-signature
+1642 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cookie-signature
+1643 info preinstall cookie-signature@1.0.6
+1644 verbose linkStuff [ false,
+1644 verbose linkStuff   false,
+1644 verbose linkStuff   false,
+1644 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1645 info linkStuff cookie-signature@1.0.6
+1646 verbose linkBins cookie-signature@1.0.6
+1647 verbose linkMans cookie-signature@1.0.6
+1648 verbose rebuildBundles cookie-signature@1.0.6
+1649 info install cookie-signature@1.0.6
+1650 info postinstall cookie-signature@1.0.6
+1651 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/copy-concurrently
+1652 info build /Users/crocslut/Desktop/Git/zpc/node_modules/copy-concurrently
+1653 info preinstall copy-concurrently@1.0.5
+1654 verbose linkStuff [ false,
+1654 verbose linkStuff   false,
+1654 verbose linkStuff   false,
+1654 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1655 info linkStuff copy-concurrently@1.0.5
+1656 verbose linkBins copy-concurrently@1.0.5
+1657 verbose linkMans copy-concurrently@1.0.5
+1658 verbose rebuildBundles copy-concurrently@1.0.5
+1659 info install copy-concurrently@1.0.5
+1660 info postinstall copy-concurrently@1.0.5
+1661 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/copy-descriptor
+1662 info build /Users/crocslut/Desktop/Git/zpc/node_modules/copy-descriptor
+1663 info preinstall copy-descriptor@0.1.1
+1664 verbose linkStuff [ false,
+1664 verbose linkStuff   false,
+1664 verbose linkStuff   false,
+1664 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1665 info linkStuff copy-descriptor@0.1.1
+1666 verbose linkBins copy-descriptor@0.1.1
+1667 verbose linkMans copy-descriptor@0.1.1
+1668 verbose rebuildBundles copy-descriptor@0.1.1
+1669 info install copy-descriptor@0.1.1
+1670 info postinstall copy-descriptor@0.1.1
+1671 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/core-js
+1672 info build /Users/crocslut/Desktop/Git/zpc/node_modules/core-js
+1673 info preinstall core-js@2.6.9
+1674 verbose linkStuff [ false,
+1674 verbose linkStuff   false,
+1674 verbose linkStuff   false,
+1674 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1675 info linkStuff core-js@2.6.9
+1676 verbose linkBins core-js@2.6.9
+1677 verbose linkMans core-js@2.6.9
+1678 verbose rebuildBundles core-js@2.6.9
+1679 info install core-js@2.6.9
+1680 info postinstall core-js@2.6.9
+1681 verbose unsafe-perm in lifecycle true
+1682 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/core-js-compat
+1683 info build /Users/crocslut/Desktop/Git/zpc/node_modules/core-js-compat
+1684 info preinstall core-js-compat@3.1.4
+1685 verbose linkStuff [ false,
+1685 verbose linkStuff   false,
+1685 verbose linkStuff   false,
+1685 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1686 info linkStuff core-js-compat@3.1.4
+1687 verbose linkBins core-js-compat@3.1.4
+1688 verbose linkMans core-js-compat@3.1.4
+1689 verbose rebuildBundles core-js-compat@3.1.4
+1690 verbose rebuildBundles [ '.bin', 'semver' ]
+1691 info install core-js-compat@3.1.4
+1692 info postinstall core-js-compat@3.1.4
+1693 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/core-js-pure
+1694 info build /Users/crocslut/Desktop/Git/zpc/node_modules/core-js-pure
+1695 info preinstall core-js-pure@3.1.4
+1696 verbose linkStuff [ false,
+1696 verbose linkStuff   false,
+1696 verbose linkStuff   false,
+1696 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1697 info linkStuff core-js-pure@3.1.4
+1698 verbose linkBins core-js-pure@3.1.4
+1699 verbose linkMans core-js-pure@3.1.4
+1700 verbose rebuildBundles core-js-pure@3.1.4
+1701 info install core-js-pure@3.1.4
+1702 info postinstall core-js-pure@3.1.4
+1703 verbose unsafe-perm in lifecycle true
+1704 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/core-util-is
+1705 info build /Users/crocslut/Desktop/Git/zpc/node_modules/core-util-is
+1706 info preinstall core-util-is@1.0.2
+1707 verbose linkStuff [ false,
+1707 verbose linkStuff   false,
+1707 verbose linkStuff   false,
+1707 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1708 info linkStuff core-util-is@1.0.2
+1709 verbose linkBins core-util-is@1.0.2
+1710 verbose linkMans core-util-is@1.0.2
+1711 verbose rebuildBundles core-util-is@1.0.2
+1712 info install core-util-is@1.0.2
+1713 info postinstall core-util-is@1.0.2
+1714 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cosmiconfig
+1715 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cosmiconfig
+1716 info preinstall cosmiconfig@4.0.0
+1717 verbose linkStuff [ false,
+1717 verbose linkStuff   false,
+1717 verbose linkStuff   false,
+1717 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1718 info linkStuff cosmiconfig@4.0.0
+1719 verbose linkBins cosmiconfig@4.0.0
+1720 verbose linkMans cosmiconfig@4.0.0
+1721 verbose rebuildBundles cosmiconfig@4.0.0
+1722 info install cosmiconfig@4.0.0
+1723 info postinstall cosmiconfig@4.0.0
+1724 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/create-ecdh
+1725 info build /Users/crocslut/Desktop/Git/zpc/node_modules/create-ecdh
+1726 info preinstall create-ecdh@4.0.3
+1727 verbose linkStuff [ false,
+1727 verbose linkStuff   false,
+1727 verbose linkStuff   false,
+1727 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1728 info linkStuff create-ecdh@4.0.3
+1729 verbose linkBins create-ecdh@4.0.3
+1730 verbose linkMans create-ecdh@4.0.3
+1731 verbose rebuildBundles create-ecdh@4.0.3
+1732 info install create-ecdh@4.0.3
+1733 info postinstall create-ecdh@4.0.3
+1734 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/create-hash
+1735 info build /Users/crocslut/Desktop/Git/zpc/node_modules/create-hash
+1736 info preinstall create-hash@1.2.0
+1737 verbose linkStuff [ false,
+1737 verbose linkStuff   false,
+1737 verbose linkStuff   false,
+1737 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1738 info linkStuff create-hash@1.2.0
+1739 verbose linkBins create-hash@1.2.0
+1740 verbose linkMans create-hash@1.2.0
+1741 verbose rebuildBundles create-hash@1.2.0
+1742 info install create-hash@1.2.0
+1743 info postinstall create-hash@1.2.0
+1744 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/create-hmac
+1745 info build /Users/crocslut/Desktop/Git/zpc/node_modules/create-hmac
+1746 info preinstall create-hmac@1.1.7
+1747 verbose linkStuff [ false,
+1747 verbose linkStuff   false,
+1747 verbose linkStuff   false,
+1747 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1748 info linkStuff create-hmac@1.1.7
+1749 verbose linkBins create-hmac@1.1.7
+1750 verbose linkMans create-hmac@1.1.7
+1751 verbose rebuildBundles create-hmac@1.1.7
+1752 info install create-hmac@1.1.7
+1753 info postinstall create-hmac@1.1.7
+1754 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/create-react-class
+1755 info build /Users/crocslut/Desktop/Git/zpc/node_modules/create-react-class
+1756 info preinstall create-react-class@15.6.3
+1757 verbose linkStuff [ false,
+1757 verbose linkStuff   false,
+1757 verbose linkStuff   false,
+1757 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1758 info linkStuff create-react-class@15.6.3
+1759 verbose linkBins create-react-class@15.6.3
+1760 verbose linkMans create-react-class@15.6.3
+1761 verbose rebuildBundles create-react-class@15.6.3
+1762 info install create-react-class@15.6.3
+1763 info postinstall create-react-class@15.6.3
+1764 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/create-react-context
+1765 info build /Users/crocslut/Desktop/Git/zpc/node_modules/create-react-context
+1766 info preinstall create-react-context@0.2.3
+1767 verbose linkStuff [ false,
+1767 verbose linkStuff   false,
+1767 verbose linkStuff   false,
+1767 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1768 info linkStuff create-react-context@0.2.3
+1769 verbose linkBins create-react-context@0.2.3
+1770 verbose linkMans create-react-context@0.2.3
+1771 verbose rebuildBundles create-react-context@0.2.3
+1772 info install create-react-context@0.2.3
+1773 info postinstall create-react-context@0.2.3
+1774 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cross-spawn
+1775 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cross-spawn
+1776 info preinstall cross-spawn@3.0.1
+1777 verbose linkStuff [ false,
+1777 verbose linkStuff   false,
+1777 verbose linkStuff   false,
+1777 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1778 info linkStuff cross-spawn@3.0.1
+1779 verbose linkBins cross-spawn@3.0.1
+1780 verbose linkMans cross-spawn@3.0.1
+1781 verbose rebuildBundles cross-spawn@3.0.1
+1782 verbose rebuildBundles [ 'lru-cache', 'yallist' ]
+1783 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cross-spawn/node_modules/yallist
+1784 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cross-spawn/node_modules/yallist
+1785 info preinstall yallist@2.1.2
+1786 verbose linkStuff [ false,
+1786 verbose linkStuff   false,
+1786 verbose linkStuff   false,
+1786 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules/cross-spawn/node_modules' ]
+1787 info linkStuff yallist@2.1.2
+1788 verbose linkBins yallist@2.1.2
+1789 verbose linkMans yallist@2.1.2
+1790 verbose rebuildBundles yallist@2.1.2
+1791 info install yallist@2.1.2
+1792 info postinstall yallist@2.1.2
+1793 info install cross-spawn@3.0.1
+1794 info postinstall cross-spawn@3.0.1
+1795 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/crypto-browserify
+1796 info build /Users/crocslut/Desktop/Git/zpc/node_modules/crypto-browserify
+1797 info preinstall crypto-browserify@3.12.0
+1798 verbose linkStuff [ false,
+1798 verbose linkStuff   false,
+1798 verbose linkStuff   false,
+1798 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1799 info linkStuff crypto-browserify@3.12.0
+1800 verbose linkBins crypto-browserify@3.12.0
+1801 verbose linkMans crypto-browserify@3.12.0
+1802 verbose rebuildBundles crypto-browserify@3.12.0
+1803 info install crypto-browserify@3.12.0
+1804 info postinstall crypto-browserify@3.12.0
+1805 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css
+1806 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css
+1807 info preinstall css@2.2.4
+1808 verbose linkStuff [ false,
+1808 verbose linkStuff   false,
+1808 verbose linkStuff   false,
+1808 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1809 info linkStuff css@2.2.4
+1810 verbose linkBins css@2.2.4
+1811 verbose linkMans css@2.2.4
+1812 verbose rebuildBundles css@2.2.4
+1813 info install css@2.2.4
+1814 info postinstall css@2.2.4
+1815 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css-animation
+1816 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css-animation
+1817 info preinstall css-animation@1.6.1
+1818 verbose linkStuff [ false,
+1818 verbose linkStuff   false,
+1818 verbose linkStuff   false,
+1818 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1819 info linkStuff css-animation@1.6.1
+1820 verbose linkBins css-animation@1.6.1
+1821 verbose linkMans css-animation@1.6.1
+1822 verbose rebuildBundles css-animation@1.6.1
+1823 info install css-animation@1.6.1
+1824 info postinstall css-animation@1.6.1
+1825 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css-box-model
+1826 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css-box-model
+1827 info preinstall css-box-model@1.1.3
+1828 verbose linkStuff [ false,
+1828 verbose linkStuff   false,
+1828 verbose linkStuff   false,
+1828 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1829 info linkStuff css-box-model@1.1.3
+1830 verbose linkBins css-box-model@1.1.3
+1831 verbose linkMans css-box-model@1.1.3
+1832 verbose rebuildBundles css-box-model@1.1.3
+1833 info install css-box-model@1.1.3
+1834 info postinstall css-box-model@1.1.3
+1835 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css-loader
+1836 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css-loader
+1837 info preinstall css-loader@1.0.0
+1838 verbose linkStuff [ false,
+1838 verbose linkStuff   false,
+1838 verbose linkStuff   false,
+1838 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1839 info linkStuff css-loader@1.0.0
+1840 verbose linkBins css-loader@1.0.0
+1841 verbose linkMans css-loader@1.0.0
+1842 verbose rebuildBundles css-loader@1.0.0
+1843 info install css-loader@1.0.0
+1844 info postinstall css-loader@1.0.0
+1845 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css-mediaquery
+1846 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css-mediaquery
+1847 info preinstall css-mediaquery@0.1.2
+1848 verbose linkStuff [ false,
+1848 verbose linkStuff   false,
+1848 verbose linkStuff   false,
+1848 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1849 info linkStuff css-mediaquery@0.1.2
+1850 verbose linkBins css-mediaquery@0.1.2
+1851 verbose linkMans css-mediaquery@0.1.2
+1852 verbose rebuildBundles css-mediaquery@0.1.2
+1853 info install css-mediaquery@0.1.2
+1854 info postinstall css-mediaquery@0.1.2
+1855 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/css-selector-tokenizer
+1856 info build /Users/crocslut/Desktop/Git/zpc/node_modules/css-selector-tokenizer
+1857 info preinstall css-selector-tokenizer@0.7.1
+1858 verbose linkStuff [ false,
+1858 verbose linkStuff   false,
+1858 verbose linkStuff   false,
+1858 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1859 info linkStuff css-selector-tokenizer@0.7.1
+1860 verbose linkBins css-selector-tokenizer@0.7.1
+1861 verbose linkMans css-selector-tokenizer@0.7.1
+1862 verbose rebuildBundles css-selector-tokenizer@0.7.1
+1863 info install css-selector-tokenizer@0.7.1
+1864 info postinstall css-selector-tokenizer@0.7.1
+1865 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cssesc
+1866 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cssesc
+1867 info preinstall cssesc@0.1.0
+1868 verbose linkStuff [ false,
+1868 verbose linkStuff   false,
+1868 verbose linkStuff   false,
+1868 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1869 info linkStuff cssesc@0.1.0
+1870 verbose linkBins cssesc@0.1.0
+1871 verbose link bins [ { cssesc: 'bin/cssesc' },
+1871 verbose link bins   '/Users/crocslut/Desktop/Git/zpc/node_modules/.bin',
+1871 verbose link bins   false ]
+1872 verbose linkMans cssesc@0.1.0
+1873 verbose rebuildBundles cssesc@0.1.0
+1874 silly gentlyRm /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/cssesc is being purged
+1875 verbose gentlyRm don't care about contents; nuking /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/cssesc
+1876 silly vacuum-fs purging /Users/crocslut/Desktop/Git/zpc/node_modules/.bin/cssesc
+1877 silly vacuum-fs quitting because other entries in /Users/crocslut/Desktop/Git/zpc/node_modules/.bin
+1878 info install cssesc@0.1.0
+1879 info postinstall cssesc@0.1.0
+1880 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/csstype
+1881 info build /Users/crocslut/Desktop/Git/zpc/node_modules/csstype
+1882 info preinstall csstype@2.6.4
+1883 verbose linkStuff [ false,
+1883 verbose linkStuff   false,
+1883 verbose linkStuff   false,
+1883 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1884 info linkStuff csstype@2.6.4
+1885 verbose linkBins csstype@2.6.4
+1886 verbose linkMans csstype@2.6.4
+1887 verbose rebuildBundles csstype@2.6.4
+1888 info install csstype@2.6.4
+1889 info postinstall csstype@2.6.4
+1890 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/currently-unhandled
+1891 info build /Users/crocslut/Desktop/Git/zpc/node_modules/currently-unhandled
+1892 info preinstall currently-unhandled@0.4.1
+1893 verbose linkStuff [ false,
+1893 verbose linkStuff   false,
+1893 verbose linkStuff   false,
+1893 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1894 info linkStuff currently-unhandled@0.4.1
+1895 verbose linkBins currently-unhandled@0.4.1
+1896 verbose linkMans currently-unhandled@0.4.1
+1897 verbose rebuildBundles currently-unhandled@0.4.1
+1898 info install currently-unhandled@0.4.1
+1899 info postinstall currently-unhandled@0.4.1
+1900 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/cyclist
+1901 info build /Users/crocslut/Desktop/Git/zpc/node_modules/cyclist
+1902 info preinstall cyclist@0.2.2
+1903 verbose linkStuff [ false,
+1903 verbose linkStuff   false,
+1903 verbose linkStuff   false,
+1903 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1904 info linkStuff cyclist@0.2.2
+1905 verbose linkBins cyclist@0.2.2
+1906 verbose linkMans cyclist@0.2.2
+1907 verbose rebuildBundles cyclist@0.2.2
+1908 info install cyclist@0.2.2
+1909 info postinstall cyclist@0.2.2
+1910 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-array
+1911 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-array
+1912 info preinstall d3-array@1.2.4
+1913 verbose linkStuff [ false,
+1913 verbose linkStuff   false,
+1913 verbose linkStuff   false,
+1913 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1914 info linkStuff d3-array@1.2.4
+1915 verbose linkBins d3-array@1.2.4
+1916 verbose linkMans d3-array@1.2.4
+1917 verbose rebuildBundles d3-array@1.2.4
+1918 info install d3-array@1.2.4
+1919 info postinstall d3-array@1.2.4
+1920 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-collection
+1921 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-collection
+1922 info preinstall d3-collection@1.0.7
+1923 verbose linkStuff [ false,
+1923 verbose linkStuff   false,
+1923 verbose linkStuff   false,
+1923 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1924 info linkStuff d3-collection@1.0.7
+1925 verbose linkBins d3-collection@1.0.7
+1926 verbose linkMans d3-collection@1.0.7
+1927 verbose rebuildBundles d3-collection@1.0.7
+1928 info install d3-collection@1.0.7
+1929 info postinstall d3-collection@1.0.7
+1930 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-color
+1931 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-color
+1932 info preinstall d3-color@1.2.8
+1933 verbose linkStuff [ false,
+1933 verbose linkStuff   false,
+1933 verbose linkStuff   false,
+1933 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1934 info linkStuff d3-color@1.2.8
+1935 verbose linkBins d3-color@1.2.8
+1936 verbose linkMans d3-color@1.2.8
+1937 verbose rebuildBundles d3-color@1.2.8
+1938 info install d3-color@1.2.8
+1939 info postinstall d3-color@1.2.8
+1940 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-format
+1941 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-format
+1942 info preinstall d3-format@1.3.2
+1943 verbose linkStuff [ false,
+1943 verbose linkStuff   false,
+1943 verbose linkStuff   false,
+1943 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1944 info linkStuff d3-format@1.3.2
+1945 verbose linkBins d3-format@1.3.2
+1946 verbose linkMans d3-format@1.3.2
+1947 verbose rebuildBundles d3-format@1.3.2
+1948 info install d3-format@1.3.2
+1949 info postinstall d3-format@1.3.2
+1950 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-interpolate
+1951 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-interpolate
+1952 info preinstall d3-interpolate@1.3.2
+1953 verbose linkStuff [ false,
+1953 verbose linkStuff   false,
+1953 verbose linkStuff   false,
+1953 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1954 info linkStuff d3-interpolate@1.3.2
+1955 verbose linkBins d3-interpolate@1.3.2
+1956 verbose linkMans d3-interpolate@1.3.2
+1957 verbose rebuildBundles d3-interpolate@1.3.2
+1958 info install d3-interpolate@1.3.2
+1959 info postinstall d3-interpolate@1.3.2
+1960 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-path
+1961 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-path
+1962 info preinstall d3-path@1.0.7
+1963 verbose linkStuff [ false,
+1963 verbose linkStuff   false,
+1963 verbose linkStuff   false,
+1963 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1964 info linkStuff d3-path@1.0.7
+1965 verbose linkBins d3-path@1.0.7
+1966 verbose linkMans d3-path@1.0.7
+1967 verbose rebuildBundles d3-path@1.0.7
+1968 info install d3-path@1.0.7
+1969 info postinstall d3-path@1.0.7
+1970 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-scale
+1971 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-scale
+1972 info preinstall d3-scale@2.2.2
+1973 verbose linkStuff [ false,
+1973 verbose linkStuff   false,
+1973 verbose linkStuff   false,
+1973 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1974 info linkStuff d3-scale@2.2.2
+1975 verbose linkBins d3-scale@2.2.2
+1976 verbose linkMans d3-scale@2.2.2
+1977 verbose rebuildBundles d3-scale@2.2.2
+1978 info install d3-scale@2.2.2
+1979 info postinstall d3-scale@2.2.2
+1980 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-shape
+1981 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-shape
+1982 info preinstall d3-shape@1.3.5
+1983 verbose linkStuff [ false,
+1983 verbose linkStuff   false,
+1983 verbose linkStuff   false,
+1983 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1984 info linkStuff d3-shape@1.3.5
+1985 verbose linkBins d3-shape@1.3.5
+1986 verbose linkMans d3-shape@1.3.5
+1987 verbose rebuildBundles d3-shape@1.3.5
+1988 info install d3-shape@1.3.5
+1989 info postinstall d3-shape@1.3.5
+1990 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-time
+1991 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-time
+1992 info preinstall d3-time@1.0.11
+1993 verbose linkStuff [ false,
+1993 verbose linkStuff   false,
+1993 verbose linkStuff   false,
+1993 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+1994 info linkStuff d3-time@1.0.11
+1995 verbose linkBins d3-time@1.0.11
+1996 verbose linkMans d3-time@1.0.11
+1997 verbose rebuildBundles d3-time@1.0.11
+1998 info install d3-time@1.0.11
+1999 info postinstall d3-time@1.0.11
+2000 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/d3-time-format
+2001 info build /Users/crocslut/Desktop/Git/zpc/node_modules/d3-time-format
+2002 info preinstall d3-time-format@2.1.3
+2003 verbose linkStuff [ false,
+2003 verbose linkStuff   false,
+2003 verbose linkStuff   false,
+2003 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+2004 info linkStuff d3-time-format@2.1.3
+2005 verbose linkBins d3-time-format@2.1.3
+2006 verbose linkMans d3-time-format@2.1.3
+2007 verbose rebuildBundles d3-time-format@2.1.3
+2008 info install d3-time-format@2.1.3
+2009 info postinstall d3-time-format@2.1.3
+2010 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/damerau-levenshtein
+2011 info build /Users/crocslut/Desktop/Git/zpc/node_modules/damerau-levenshtein
+2012 info preinstall damerau-levenshtein@1.0.5
+2013 verbose linkStuff [ false,
+2013 verbose linkStuff   false,
+2013 verbose linkStuff   false,
+2013 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+2014 info linkStuff damerau-levenshtein@1.0.5
+2015 verbose linkBins damerau-levenshtein@1.0.5
+2016 verbose linkMans damerau-levenshtein@1.0.5
+2017 verbose rebuildBundles damerau-levenshtein@1.0.5
+2018 info install damerau-levenshtein@1.0.5
+2019 info postinstall damerau-levenshtein@1.0.5
+2020 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/dashdash
+2021 info build /Users/crocslut/Desktop/Git/zpc/node_modules/dashdash
+2022 info preinstall dashdash@1.14.1
+2023 verbose linkStuff [ false,
+2023 verbose linkStuff   false,
+2023 verbose linkStuff   false,
+2023 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+2024 info linkStuff dashdash@1.14.1
+2025 verbose linkBins dashdash@1.14.1
+2026 verbose linkMans dashdash@1.14.1
+2027 verbose rebuildBundles dashdash@1.14.1
+2028 info install dashdash@1.14.1
+2029 info postinstall dashdash@1.14.1
+2030 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/date-arithmetic
+2031 info build /Users/crocslut/Desktop/Git/zpc/node_modules/date-arithmetic
+2032 info preinstall date-arithmetic@4.0.1
+2033 verbose linkStuff [ false,
+2033 verbose linkStuff   false,
+2033 verbose linkStuff   false,
+2033 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+2034 info linkStuff date-arithmetic@4.0.1
+2035 verbose linkBins date-arithmetic@4.0.1
+2036 verbose linkMans date-arithmetic@4.0.1
+2037 verbose rebuildBundles date-arithmetic@4.0.1
+2038 info install date-arithmetic@4.0.1
+2039 info postinstall date-arithmetic@4.0.1
+2040 verbose rebuild bundle /Users/crocslut/Desktop/Git/zpc/node_modules/date-fns
+2041 info build /Users/crocslut/Desktop/Git/zpc/node_modules/date-fns
+2042 info preinstall date-fns@2.0.0-beta.3
+2043 verbose linkStuff [ false,
+2043 verbose linkStuff   false,
+2043 verbose linkStuff   false,
+2043 verbose linkStuff   '/Users/crocslut/Desktop/Git/zpc/node_modules' ]
+2044 info linkStuff date-fns@2.0.0-beta.3
+2045 verbose linkBins date-fns@2.0.0-beta.3
+2046 verbose linkMans date-fns@2.0.0-beta.3
+2047 verbose rebuildBundles date-fns@2.0.0-beta.3
+2048 info install date-fns@2.0.0-beta.3
+2049 info postinstall date-fns@2.0.0-beta.3
+2050 verbose unsafe-perm in lifecycle true
+2051 info date-fns@2.0.0-beta.3 Failed to exec postinstall script
+2052 verbose stack Error: date-fns@2.0.0-beta.3 postinstall: `node ./docs/printV2Notice.js`
+2052 verbose stack Exit status 1
+2052 verbose stack     at EventEmitter.<anonymous> (/Users/crocslut/.nvm/versions/node/v0.12.2/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+2052 verbose stack     at EventEmitter.emit (events.js:110:17)
+2052 verbose stack     at ChildProcess.<anonymous> (/Users/crocslut/.nvm/versions/node/v0.12.2/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+2052 verbose stack     at ChildProcess.emit (events.js:110:17)
+2052 verbose stack     at maybeClose (child_process.js:1015:16)
+2052 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+2053 verbose pkgid date-fns@2.0.0-beta.3
+2054 verbose cwd /Users/crocslut/Desktop/Git/zpc
+2055 error Darwin 20.6.0
+2056 error argv "/Users/crocslut/.nvm/versions/node/v0.12.2/bin/node" "/Users/crocslut/.nvm/versions/node/v0.12.2/bin/npm" "i"
+2057 error node v0.12.2
+2058 error npm  v2.7.4
+2059 error code ELIFECYCLE
+2060 error date-fns@2.0.0-beta.3 postinstall: `node ./docs/printV2Notice.js`
+2060 error Exit status 1
+2061 error Failed at the date-fns@2.0.0-beta.3 postinstall script 'node ./docs/printV2Notice.js'.
+2061 error This is most likely a problem with the date-fns package,
+2061 error not with npm itself.
+2061 error Tell the author that this fails on your system:
+2061 error     node ./docs/printV2Notice.js
+2061 error You can get their info via:
+2061 error     npm owner ls date-fns
+2061 error There is likely additional logging output above.
+2062 verbose exit [ 1, true ]
