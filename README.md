@@ -6,7 +6,8 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 - [React Version](https://github.com/0wczar/airframe-react/)
 - *Sketch Files (Soon)*
 
-<img src="https://github.com/gispatial/zpc/blob/rizqbazaar/Screenshot%202021-10-28%20at%201.41.59%20PM.png" width="100%">
+<img src="https://github.com/gispatial/zpc/blob/rizqbazaar/home.png" width="100%">
+<img src="https://github.com/gispatial/zpc/blob/rizqbazaar/sidebar.png" width="100%">
 <img src="https://github.com/gispatial/zpc/blob/rizqbazaar/Screenshot%202021-10-28%20at%201.44.59%20PM.png" width="100%">
 
 # Introduction
