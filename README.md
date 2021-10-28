@@ -14,6 +14,7 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 # Introduction
 
 **ZCP Dashboard** with a minimalist design and innovative Light UI will let you build an amazing and powerful application with great UI. Perfectly designed for large scale applications, with detailed step by step documentation.
+**Container within dashboard can be access it here: https://zen-charity.vercel.app/**
 
 # Run this deployment
 $ npm i or yarn. ( make sure you having npm next or just add $ yarn add @next )
