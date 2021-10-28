@@ -8,7 +8,7 @@ class Index extends React.Component {
     render() {
         return (
             <Container>
-    <iframe src="https://pwa-tripcarte-asia.vercel.app/syst/card/analytics"
+    <iframe src="https://pwa-tripcarte-asia.vercel.app/"
             frameborder="0"
             marginheight="0"
             marginwidth="0"

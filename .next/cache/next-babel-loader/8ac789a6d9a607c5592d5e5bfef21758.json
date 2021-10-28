@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Nav } from './nav';\nexport default Nav;","map":{"version":3,"sources":["/Users/crocslut/Desktop/Git/zpc/components/Nav/index.js"],"names":["Nav"],"mappings":"AAAA,SAASA,GAAT,QAAoB,OAApB;AAEA,eAAeA,GAAf","sourcesContent":["import { Nav } from './nav';\n\nexport default Nav;\n"]},"metadata":{},"sourceType":"module"}

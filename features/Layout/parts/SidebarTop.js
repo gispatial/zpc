@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { 
+import {
     Sidebar,
     UncontrolledButtonDropdown,
     Avatar,
@@ -24,12 +24,12 @@ const SidebarTop = () => (
                             size="lg"
                             src={ avatarImg }
                             addOns={[
-                                <AvatarAddOn.Icon 
+                                <AvatarAddOn.Icon
                                     className="fa fa-circle"
                                     color="white"
                                     key="avatar-icon-bg"
                                 />,
-                                <AvatarAddOn.Icon 
+                                <AvatarAddOn.Icon
                                     className="fa fa-circle"
                                     color="success"
                                     key="avatar-icon-fg"
@@ -38,15 +38,15 @@ const SidebarTop = () => (
                         />
                     </Sidebar.HideSlim>
                 </Link>
-                
+
                 <UncontrolledButtonDropdown>
                     <DropdownToggle color="link" className="pl-0 pb-0 btn-profile sidebar__link">
-                        Jane Doe
+                        Jennete
                         <i className="fa fa-angle-down ml-2"></i>
                     </DropdownToggle>
                     <DropdownMenu persist>
                     <DropdownItem header>
-                        Jane Doe
+                        Jenny Doughlas
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem>
@@ -66,7 +66,7 @@ const SidebarTop = () => (
                     </DropdownMenu>
                 </UncontrolledButtonDropdown>
                 <div className="small sidebar__link--muted">
-                    Web Developer
+                    Business Analyst
                 </div>
             </Sidebar.Section>
         </Sidebar.HideSlim>
@@ -79,12 +79,12 @@ const SidebarTop = () => (
                     size="sm"
                     src={ avatarImg }
                     addOns={[
-                        <AvatarAddOn.Icon 
+                        <AvatarAddOn.Icon
                             className="fa fa-circle"
                             color="white"
                             key="avatar-icon-bg"
                         />,
-                        <AvatarAddOn.Icon 
+                        <AvatarAddOn.Icon
                             className="fa fa-circle"
                             color="success"
                             key="avatar-icon-fg"

@@ -1,6 +1,6 @@
-# ZEN Charity Platform Fe Dashboard with NextJs
+# ZEN Charity Platform Fe Dashboard with NextJs.
 
-High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone, tablet or desktop using AirFrame boilerplate. 
+High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone, tablet or desktop using AirFrame boilerplate.
 
 - [jQuery Version](http://dashboards.webkom.co/jquery/airframe)
 - [React Version](https://github.com/0wczar/airframe-react/)
@@ -11,9 +11,15 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 
 # Introduction
 
-**ZEN Charity Platform | Airframe Dashboard** with a minimalist design and innovative Light UI will let you build an amazing and powerful application with great UI. Perfectly designed for large scale applications, with detailed step by step documentation.
+**ZCP Dashboard** with a minimalist design and innovative Light UI will let you build an amazing and powerful application with great UI. Perfectly designed for large scale applications, with detailed step by step documentation.
 
-This ZEN Charity Platform | Airframe Dashboard project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
+# Run this deployment
+$ npm i or yarn. ( make sure you having npm next or just add $ yarn add @next )
+
+# Run the production on http://localhost:4110/
+$ npm run dev or yarn dev | One dashboard is loading, please log using credentials: underwaterworldadmin | abcd1234!
+
+This ZCP Dashboard project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
 for Bootstrap support. Any topic that you won't find here is probably described in NextJs documentation.
 
 _Note: If you want to use this project in production, you will need a server supporting NodeJs._

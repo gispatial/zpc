@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Link } from './Link';\nexport default Link;","map":{"version":3,"sources":["/Users/crocslut/Desktop/Git/zpc/components/Link/index.js"],"names":["Link"],"mappings":"AAAA,SAASA,IAAT,QAAqB,QAArB;AAEA,eAAeA,IAAf","sourcesContent":["import { Link } from './Link';\n\nexport default Link;\n"]},"metadata":{},"sourceType":"module"}

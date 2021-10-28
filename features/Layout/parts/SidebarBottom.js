@@ -10,16 +10,16 @@ import {
 
 const FooterText = () => (
 	<React.Fragment>
-		(C) { moment().format('YYYY') } All Rights Reserved.{' '}
-        This is the &quot;Admin Theme&quot; built with Bootstrap 4 and React.{' '}
+		&copy; { moment().format('YYYY') } All Rights Reserved.{' '}
+        This project was built with Bootstrap 4 and Next/ React.{' '}
 		Designed and implemented by{' '}
 		<a
-			href="http://www.webkom.co"
+			href="https://github.com/gispatial"
 			target="_blank"
 			rel="noopener noreferrer"
 			className="sidebar__link"
 		>
-			www.webkom.co
+			JustEd@Github
 		</a>
 	</React.Fragment>
 );
