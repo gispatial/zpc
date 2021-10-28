@@ -1,6 +1,6 @@
 # ZEN Charity Platform Fe Dashboard with NextJs.
 
-High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone for ZEN Charity Platform, tablet or desktop using AirFrame PWA / SPA Monolith Boilerplate.
+High Quality **Dashboard / Admin / Analytics template** that works great on any web or table, smartphone for ZEN Charity Platform using AirFrame React / NextJs / PWA / SPA Monolith Boilerplate.
 
 - [jQuery Version](http://dashboards.webkom.co/jquery/airframe)
 - [React Version](https://github.com/0wczar/airframe-react/)
