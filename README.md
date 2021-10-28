@@ -1,4 +1,4 @@
-# ZEN Charity Platform Fe Dashboard with Next
+# ZEN Charity Platform Fe Dashboard with NextJs
 
 High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone, tablet or desktop using AirFrame boilerplate. 
 
