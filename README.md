@@ -1,15 +1,12 @@
-# ZEN Charity Platfor NextJs Fe Dashboard
+# ZEN Charity Platform Fe Dashboard with Next
 
-High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone, tablet or desktop. Available as **Open Source as MIT license.**
+High Quality **Dashboard / Admin / Analytics template** that works great on any smartphone, tablet or desktop using AirFrame boilerplate. 
 
-- [**View Demo**](http://airframe.nextjs.webkom.co)
 - [jQuery Version](http://dashboards.webkom.co/jquery/airframe)
 - [React Version](https://github.com/0wczar/airframe-react/)
-- [Angular Version](http://dashboards.webkom.co/angular/airframe) - _Documentation in preparation_
-- [Vue Version](http://dashboards.webkom.co/vue/airframe) - _Documentation in preparation_
-- [MVC.Net Version](http://dashboards.webkom.co/net-mvc/airframe) - _Documentation in preparation_
 - *Sketch Files (Soon)*
 
+![aiframe-2019-light-primary-ExchangeTrading2x-bfc026c1-0477-45c8-ba55-f6dd43141e4c](https://github.com/gispatial/zpc/blob/rizqbazaar/Screenshot%202021-10-28%20at%201.41.59%20PM.png)
 ![aiframe-2019-light-primary-ExchangeTrading2x-bfc026c1-0477-45c8-ba55-f6dd43141e4c](https://github.com/gispatial/zpc/blob/rizqbazaar/Screenshot%202021-10-28%20at%201.41.59%20PM.png)
 
 # Introduction
