@@ -11,9 +11,9 @@ High Quality **Dashboard / Admin / Analytics template** that works great on any 
 
 # Introduction
 
-**Airframe Dashboard** with a minimalist design and innovative Light UI will let you build an amazing and powerful application with great UI. Perfectly designed for large scale applications, with detailed step by step documentation.
+**ZEN Charity Platform | Airframe Dashboard** with a minimalist design and innovative Light UI will let you build an amazing and powerful application with great UI. Perfectly designed for large scale applications, with detailed step by step documentation.
 
-This Airframe project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
+This ZEN Charity Platform | Airframe Dashboard project is based on [NextJs](https://github.com/zeit/next.js/) - a popular framework made for React with great Server Side Rendering support. Includes customized [Reactstrap](https://reactstrap.github.io)
 for Bootstrap support. Any topic that you won't find here is probably described in NextJs documentation.
 
 _Note: If you want to use this project in production, you will need a server supporting NodeJs._
